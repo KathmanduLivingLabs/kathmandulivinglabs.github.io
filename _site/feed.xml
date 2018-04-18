@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>KLL Tech Blog.</title>
+    <description>We wanted to talk about what we do here at the KLL tech room, so we hacked up a nifty little blog using Jekyll.</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>First post.</title>
+        <description>&lt;p&gt;Over the last few months, one constantly recurring topic of discussion amongst the people inside the KLL tech room has been around whether we are doing enough to  share and talk of our work to the outside world.&lt;/p&gt;
+
+&lt;p&gt;This blog is an effort in that direction. We feel that just the simple act of practicing writing about our work, will help steer us to our goal.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 18 Apr 2018 14:51:29 +0545</pubDate>
+        <link>http://localhost:4000/alerts/2018/04/18/up-and-running/</link>
+        <guid isPermaLink="true">http://localhost:4000/alerts/2018/04/18/up-and-running/</guid>
+      </item>
+    
+  </channel>
+</rss>

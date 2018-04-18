@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title></title>
+    <link>http://localhost:4000</link>
+    <description>
+      We wanted to talk about what we do here at the KLL tech room, so we hacked up a nifty little blog using Jekyll.
+    </description>
+    
+        
+            <item>
+                <title>First post.</title>
+                <link>http://localhost:4000/alerts/2018/04/18/up-and-running/</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>Over the last few months, one constantly recurring topic of discussion amongst the people inside the KLL tech room has been around whether we are doing enough to  share and talk of our work to the outside world.</p>
+
+<p>This blog is an effort in that direction. We feel that just the simple act of practicing writing about our work, will help steer us to our goal.</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/alerts/2018/04/18/up-and-running/</guid>
+                <description>
+                    
+                    KLL has a tech blog.
+                    
+                </description>
+                <pubDate>Wed, 18 Apr 2018 14:51:29 +0545</pubDate>
+                <author>kll</author>
+            </item>
+        
+    
+  </channel>
+</rss>
