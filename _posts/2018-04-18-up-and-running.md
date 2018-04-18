@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      First post.
+title:      Welcome to the blog.
 date:       2018-04-18 09:06:29
 summary:    KLL now has a tech blog where we will be sharing our work, ideas and challenges we come across.  
 categories: alerts
@@ -8,7 +8,7 @@ categories: alerts
 
 KLL now has a tech blog where we will be sharing our work, ideas and challenges we come across.
 
-The following is a constant recurring topic of discussion amongst all of us coders here at KLL
+The following is a recurring topic of discussion amongst all of us coders here at KLL
 
 > Are we doing enough to share our learnings with the community?
 
