@@ -5,7 +5,11 @@ permalink: /contributors/
 tags: contributors
 ---
 
-Here is our list of all contributors to this website:
+Here is our list of all contributors (in alphabetical order):
 
-- Nirab Pudasaini
+- Arjun Gautam
 - Arogya Koirala
+- Bhawak Pokhrel
+- Nirab Pudasaini
+- Saurav Bhattarai
+- Sushma Giri
