@@ -27,8 +27,7 @@ I have also uploaded all of the resources used for this tutorial in the form of 
 
 We first begin by instantiating our map in `index.html`.
 
-{% highlight html linenos %}
-<!DOCTYPE html>
+{% highlight html %}
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
