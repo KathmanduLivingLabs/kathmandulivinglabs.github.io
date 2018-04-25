@@ -9,7 +9,11 @@ date_format: "%b %-d, %Y"
 header_pages:
  - about.md
  # - contact.html
-
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
 # Google services
 google_verification:
 # Use either direct GA implementation or set up GTM account
