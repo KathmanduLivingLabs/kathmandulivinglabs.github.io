@@ -18,9 +18,9 @@ Here is an image that showcases what we are trying to achieve by the end of this
 
 ### Before we begin
 
-This tutorial assumes a basic understanding of [LeafletJS]("http://leafletjs.com/") and its API. If you are not familiar with this framework, I urge you to go through its well curated collection of  [tutorials]("http://leafletjs.com/examples.html") and [API reference documentation.]("http://leafletjs.com/reference-1.3.0.html").
+This tutorial assumes a basic understanding of [LeafletJS]("http://leafletjs.com/") and its API. If you are not familiar with this framework, I urge you to go through its [well curated collection of  tutorials]("http://leafletjs.com/examples.html") and [API reference documentation]("http://leafletjs.com/reference-1.3.0.html").
 
-I have also uploaded all of the resources used for this tutorial in the form of a github gist. You can view the code [here]("#")
+I have also uploaded all of the resources used for this tutorial in the form of a github gist. You can view the code [here]("#").
 
 
 ### So let's get going.
