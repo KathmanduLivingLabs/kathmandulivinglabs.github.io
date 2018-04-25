@@ -12,6 +12,7 @@ In this post, I am going to walk you through a series of steps that will allow y
 
 Before we begin, here is an image that showcases what we are trying to achieve by the end of this tutorial.
 
-![Notice how areas outside the city has a reduced opacity, allowing us to draw the user’s attention to all of the content inside the boundary.]({{ "/assets/img/boundary.png" | absolute_url }})
+![]({{ "/assets/img/boundary.png" | absolute_url }})
+*Notice how areas outside the city has a reduced opacity, allowing us to draw the user’s attention to all of the content inside the boundary.*
 
 For the purposes of this tutorial, we will be a GeoJSON file that contains the boundary for Nilkantha municipality, Dhading.
