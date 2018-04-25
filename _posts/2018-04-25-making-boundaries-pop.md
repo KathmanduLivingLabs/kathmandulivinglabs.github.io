@@ -18,11 +18,11 @@ Before we begin, here is an image that showcases what we are trying to achieve b
 For the purposes of this tutorial, we will be a GeoJSON file that contains the boundary for Neelakantha Municipality, Dhading. If you don't understand what that means just yet, there's no need to worry, just follow along and we'll have you ramped up in not time.
 
 
-## Understanding leaflet.
+### Understanding leaflet.
 
 This section is written for users who have no familiarity with Leaflet. If you already have a basic understanding of what LeafletJS is and what it does feel free to skip this section.
 
 
-## Basic Principle
+### Basic Principle
 
-Regardless of whether you;re using Leaflet or any other framework (MapboxGL, for example), the basic idea is to add an additional layer in the map, which would be a difference between the GeoJSON and the map’s bounding box, and play with the opacity of these two layers to achieve the desired effect. 
+Regardless of whether you;re using Leaflet or any other framework (MapboxGL, for example), the basic idea is to add an additional layer in the map, which would be a difference between the GeoJSON and the map’s bounding box, and play with the opacity of these two layers to achieve the desired effect.
