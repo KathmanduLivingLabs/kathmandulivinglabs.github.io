@@ -116,3 +116,67 @@ After this, we can now access the GeoJSON as follows:
 
 ...
 {% endhighlight %}
+
+#### Step 4: Making it pop!
+
+The final step involves adding one more tilelayer onto the original map. However, in this case, the tile layer will only be visible inside the boundary. This is achieved my making use of an external leaflet plugin called 'BoundaryCanvas', which allows us to draw tiled raster layers with an arbitrary boundary (in our case, `boundary.geojson`). You can learn more about its capabilities [here]("https://github.com/aparshin/leaflet-boundary-canvas").
+
+We begin by loading the boundary canvas script within the head section of `index.html`.
+
+{% highlight html %}
+...
+<head>
+  ...
+      <script src="https://unpkg.com/leaflet-boundary-canvas@1.0.0/src/BoundaryCanvas.js"></script>
+  ...
+</head>
+...
+{% endhighlight %}
+
+Finally, we add the additional tile layer inside the `$.ajax()` call as follows:
+{% highlight html %}
+...
+
+<script>
+
+  var mymap = L.map('my-map').setView([27.89512, 85.1], 11);
+  var osmURL = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
+  var baseTileLayer = L.tileLayer(osmURL, { opacity: 0.2 });
+  baseTileLayer.addTo(mymap);
+
+  $.ajax({mimeType: 'application/json', url: 'boundary.geojson'} ).done(function(data) {
+    var test = L.TileLayer.boundaryCanvas('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        boundary: data,
+    }).addTo(mymap);
+  });
+
+</script>
+
+...
+{% endhighlight %}
+
+If all goes well, here's what the output looks like:
+![]({{ "/assets/img/scr_3.png" | absolute_url }})
+
+
+To make the municipality stand out a little more, let's modify the leaflet conatiner's background color. To do this, let's add a style tag inside the `<head>` section of `index.html`
+
+{% highlight html %}
+...
+<head>
+  ...
+  <style>
+     .leaflet-container {
+       background: #000;
+     }
+  </style>
+  ...
+</head>
+...
+{% endhighlight %}
+
+In the end, this is what we should have:
+![]({{ "/assets/img/scr_4.png" | absolute_url }})
+
+Cheers,
+Arogya
