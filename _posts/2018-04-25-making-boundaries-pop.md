@@ -82,4 +82,18 @@ Inside the script tag, we now create a new tile layer and add it to the map as f
 {% endhighlight %}
 
 Notice how I've set the opacity of `baseTileLayer` to 40%. Here's what the output looks like now:
-![]({{ "/assets/img/scr_1.png" | absolute_url }})
+![]({{ "/assets/img/scr_2.png" | absolute_url }})
+
+#### Step 3: Loading the external GeoJSON boundary.
+
+The next step involves making the GeoJSON boundary file available for use within our `index.html`. For this we will have to make use of an external library called leaflet ajax. To do so, we simply load the script onto the head section of our document, like so:
+
+{% highlight html %}
+...
+<head>
+  ...
+  <script src="/leaflet-ajax.min.js"></script>
+  ...
+</head>
+...
+{% endhighlight %}
