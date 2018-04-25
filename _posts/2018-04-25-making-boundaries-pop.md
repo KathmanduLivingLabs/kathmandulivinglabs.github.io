@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Map making in the web: making cities pop!
+title:      Map making in the web - making cities pop!
 date:       2018-04-18 09:06:29
 summary:    This post explains how you can use LeafletJS to clip map tile layers and make boundaries stand out.  
 categories: tutorials
