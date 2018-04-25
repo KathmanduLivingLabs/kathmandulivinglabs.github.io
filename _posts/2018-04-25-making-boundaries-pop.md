@@ -25,15 +25,34 @@ I have also uploaded all of the resources used for this tutorial in the form of 
 
 ### So let's get going.
 
-We first begin by instantiating our map in `index.html`.
+We first begin by loading the CDN for leaflet and its style files, and then instantiating our map in `index.html`.
 
 {% highlight html %}
 <html lang="en" dir="ltr">
   <head>
+
     <meta charset="utf-8">
+
+    <!-- Loading leaflet JS styles and JS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css"
+      integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+      crossorigin=""/>
+
+    <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"
+      integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw=="
+      crossorigin="">
+    </script>
+    <!-- End loading Leaflet JS -->
+
     <title>Making Cities Pop - Final Output</title>
+
   </head>
+
   <body>
+
+    <!-- Create a div where the map will reside -->
+    <div id="my-map" style="height:180px;"></div>
+
   </body>
 </html>
 {% endhighlight %}
