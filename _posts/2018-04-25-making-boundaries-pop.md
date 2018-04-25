@@ -59,9 +59,9 @@ Let's start by quickly wiring up a basic leaflet map for our use. For this, we w
 At this point, I'd like to point out that since most of the code we will be working on will be inside the `<script>` tags inside the `<body>`, I'll only be sharing snippets from that section, and ignore the rest of the HTML.
 
 Before we move on, here's a screenshot of what the output currently looks like:
-
 ![]({{ "/assets/img/scr_1.png" | absolute_url }})
-*Not much to see here at the moment.*
+
+As you may have noticed, not much has happened so far.
 
 #### Step 2: Add the base tile layer
 
@@ -81,4 +81,5 @@ Inside the script tag, we now create a new tile layer and add it to the map as f
 ...
 {% endhighlight %}
 
-Notice how I've set the opacity of `baseTileLayer` to 40%.
+Notice how I've set the opacity of `baseTileLayer` to 40%. Here's what the output looks like now:
+![]({{ "/assets/img/scr_1.png" | absolute_url }})
