@@ -10,19 +10,19 @@ When designing maps for our projects here at KLL, a very common request that we 
 
 In this post, I am going to walk you through a series of steps that will allow you to clip the standard OSM tilelayer based on a geographic boundary.
 
-Before we begin, here is an image that showcases what we are trying to achieve by the end of this tutorial.
+### So what are we doing again?
+Here is an image that showcases what we are trying to achieve by the end of this tutorial.
 
 ![]({{ "/assets/img/boundary.png" | absolute_url }})
 *Notice how areas outside the city has a reduced opacity, allowing us to draw the user’s attention to all of the content inside the boundary.*
 
-For the purposes of this tutorial, we will be a GeoJSON file that contains the boundary for Neelakantha Municipality, Dhading. If you don't understand what that means just yet, there's no need to worry, just follow along and we'll have you ramped up in not time.
+### Before we begin
+
+This tutorial assumes a basic understanding of [LeafletJS]("http://leafletjs.com/") and its API. If you are not familiar with this framework, I urge you to go through its well curated collection of  [tutorials]("http://leafletjs.com/examples.html") and [API reference documentation.]("http://leafletjs.com/reference-1.3.0.html").
+
+I have also uploaded all of the resources used for this tutorial in the form of a github gist. You can view the code [here]("#")
 
 
-### Understanding leaflet.
+### So let's get going.
 
-This section is written for users who have no familiarity with Leaflet. If you already have a basic understanding of what LeafletJS is and what it does feel free to skip this section.
-
-
-### Basic Principle
-
-Regardless of whether you;re using Leaflet or any other framework (MapboxGL, for example), the basic idea is to add an additional layer in the map, which would be a difference between the GeoJSON and the map’s bounding box, and play with the opacity of these two layers to achieve the desired effect.
+For the purposes of this tutorial, we will be a GeoJSON file that contains the boundary for Neelakantha Municipality, Dhading.
