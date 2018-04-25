@@ -25,6 +25,7 @@ I have also uploaded all of the resources used for this tutorial in the form of 
 
 ### So let's get going.
 
+#### Setting up the map
 We first begin by loading the CDN for leaflet and its style files, and then instantiating our map in `index.html`.
 
 {% highlight html %}
@@ -56,7 +57,5 @@ We first begin by loading the CDN for leaflet and its style files, and then inst
   </body>
 </html>
 {% endhighlight %}
-
-
 
 For the purposes of this tutorial, we will be a GeoJSON file that contains the boundary for Neelakantha Municipality, Dhading.
