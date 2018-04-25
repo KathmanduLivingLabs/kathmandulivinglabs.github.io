@@ -34,25 +34,27 @@ Let's start by quickly wiring up a basic leaflet map for our use. For this, we w
 {% highlight html %}
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-   <head>
-      <meta charset="utf-8">
-      <!-- Loading leaflet JS styles and JS -->
-      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css"
-         integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
-         crossorigin=""/>
-      <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"
-         integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw=="
-         crossorigin=""></script>
-      <!-- End loading Leaflet JS -->
-      <title>Making Cities Pop - Final Output</title>
-   </head>
-   <body>
-      <!-- Create a div where the map will reside -->
-      <div id="my-map" style="height:180px;"></div>
-      <script>
-         var mymap = L.map('my-map').setView([51.505, -0.09], 13);
-      </script>
-   </body>
+
+<head>
+    <meta charset="utf-8">
+    <!-- Loading leaflet JS styles and JS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js" integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw==" crossorigin=""></script>
+    <!-- End loading Leaflet JS -->
+    <title>Making Cities Pop - Final Output</title>
+</head>
+
+<body>
+    <!-- Create a div where the map will reside -->
+    <div id="my-map" style="height:180px;"></div>
+    <script>
+        var osmURL = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
+
+         var mymap = L.map('my-map').setView([27.89512, 85.1], 11);
+         var baseTileLayer =   L.tileLayer(osmURL, { opacity: 0.4 }).addTo(this.map);
+    </script>
+</body>
+
 </html>
 {% endhighlight %}
 
