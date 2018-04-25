@@ -25,7 +25,7 @@ Here is an image that showcases what we are trying to achieve by the end of this
 
 This tutorial assumes a basic understanding of <a href="http://leafletjs.com/">LeafletJS</a> and its API. If you are not familiar with this framework, I urge you to go through its <a href="http://leafletjs.com/examples.html">well curated collection of  tutorials</a> and <a href="http://leafletjs.com/reference-1.3.0.html">API reference documentation</a>.
 
-I have also uploaded all of the resources used for this tutorial in the form of a github gist. You can view the code <a href=""http://bl.ocks.org/arkoblog/1a0b65bd62686bab0d8a7ccca26be998"">in this github gist.</a>
+I have also uploaded all of the resources used for this tutorial in the form of a github gist. You can view the code <a href="http://bl.ocks.org/arkoblog/1a0b65bd62686bab0d8a7ccca26be998"">in this github gist.</a>
 
 
 ### Step 1: Wiring up a basic map
