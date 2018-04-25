@@ -10,11 +10,14 @@ When designing maps for our projects here at KLL, a very common request that we 
 
 In this post, I am going to walk you through a series of steps that will allow you to clip the standard OSM tilelayer based on a geographic boundary.
 
+
 ### So what are we doing again?
+
 Here is an image that showcases what we are trying to achieve by the end of this tutorial.
 
 ![]({{ "/assets/img/scr_4.png" | absolute_url }})
 *Notice how areas outside the city has a reduced opacity, allowing us to draw the user’s attention to all of the content inside the boundary.*
+
 
 ### Before we begin
 
@@ -23,47 +26,45 @@ This tutorial assumes a basic understanding of [LeafletJS]("http://leafletjs.com
 I have also uploaded all of the resources used for this tutorial in the form of a github gist. You can view the code [here]("#").
 
 
-### So let's get going.
+### Step 1: Wiring up a basic map
 
 Let's start by quickly wiring up a basic leaflet map for our use. For this, we will be following the same procedure as outlined in Leaflet's official [quick start guide]("http://leafletjs.com/examples/quick-start/"), with the following differences:
 
   - The bounding box and the zoom level will be set to around that of Neelakantha municipality.
   - The tilelayer that we will be using will be different to the one provided in the guide.
 
-#### Step 1: Wiring up a basic map
 {% highlight html %}
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-<head>
-    <meta charset="utf-8">
-    <!-- Loading leaflet JS styles and JS -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin="" />
-    <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js" integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw==" crossorigin=""></script>
-    <!-- End loading Leaflet JS -->
-    <title>Making Cities Pop - Final Output</title>
-</head>
+  <head>
+      <meta charset="utf-8">
+      <!-- Loading leaflet JS styles and JS -->
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin="" />
+      <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js" integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw==" crossorigin=""></script>
+      <!-- End loading Leaflet JS -->
+      <title>Making Cities Pop - Final Output</title>
+  </head>
 
-<body>
-    <!-- Create a div where the map will reside -->
-    <div id="my-map" style="height:180px;"></div>
-    <script>
+  <body>
+      <!-- Create a div where the map will reside -->
+      <div id="my-map" style="height:400px;"></div>
+      <script>
 
-        var mymap = L.map('my-map').setView([27.89512, 85.1], 11);
-    </script>
-</body>
+          var mymap = L.map('my-map').setView([27.89512, 85.1], 11);
+      </script>
+  </body>
 
 </html>
 {% endhighlight %}
 
-At this point, I'd like to point out that since most of the code we will be working on will be inside the `<script>` tags inside the `<body>`, I'll only be sharing snippets from that section, and ignore the rest of the HTML.
+Before we proceed, here's a screenshot of what the output currently looks like:
 
-Before we move on, here's a screenshot of what the output currently looks like:
 ![]({{ "/assets/img/scr_1.png" | absolute_url }})
-
 As you may have noticed, not much has happened so far.
 
-#### Step 2: Add the base tile layer
+
+### Step 2: Adding the base tile layer
 
 Inside the script tag, we now create a new tile layer and add it to the map as follows.
 
@@ -74,17 +75,18 @@ Inside the script tag, we now create a new tile layer and add it to the map as f
   var mymap = L.map('my-map').setView([27.89512, 85.1], 11);
 
   var osmURL = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
-  var baseTileLayer = L.tileLayer(osmURL, { opacity: 0.4 });
+  var baseTileLayer = L.tileLayer(osmURL, { opacity: 0.2 });
   baseTileLayer.addTo(mymap);
 </script>
 
 ...
 {% endhighlight %}
 
-Notice how I've set the opacity of `baseTileLayer` to 40%. Here's what the output looks like now:
+Notice how I've set the opacity of `baseTileLayer` to `0.2`. Here's what the output looks like now:
 ![]({{ "/assets/img/scr_2.png" | absolute_url }})
 
-#### Step 3: Loading the external GeoJSON boundary.
+
+### Step 3: Loading the external GeoJSON boundary.
 
 The next step involves making the GeoJSON boundary file available for use within our `index.html`. For this we will have to make use of the `$.ajax()` method available in jQuery. To do so, we first load jQuery as an external dependency onto the head section of our document, like so:
 
@@ -99,6 +101,7 @@ The next step involves making the GeoJSON boundary file available for use within
 {% endhighlight %}
 
 After this, we can now access the GeoJSON as follows:
+
 {% highlight html %}
 ...
 
@@ -117,7 +120,8 @@ After this, we can now access the GeoJSON as follows:
 ...
 {% endhighlight %}
 
-#### Step 4: Making it pop!
+
+### Step 4: Making it pop!
 
 The final step involves adding one more tilelayer onto the original map. However, in this case, the tile layer will only be visible inside the boundary. This is achieved my making use of an external leaflet plugin called 'BoundaryCanvas', which allows us to draw tiled raster layers with an arbitrary boundary (in our case, `boundary.geojson`). You can learn more about its capabilities [here]("https://github.com/aparshin/leaflet-boundary-canvas").
 
@@ -134,6 +138,7 @@ We begin by loading the boundary canvas script within the head section of `index
 {% endhighlight %}
 
 Finally, we add the additional tile layer inside the `$.ajax()` call as follows:
+
 {% highlight html %}
 ...
 
@@ -155,9 +160,8 @@ Finally, we add the additional tile layer inside the `$.ajax()` call as follows:
 ...
 {% endhighlight %}
 
-If all goes well, here's what the output looks like:
+If all goes well, here's what you will see:
 ![]({{ "/assets/img/scr_3.png" | absolute_url }})
-
 
 To make the municipality stand out a little more, let's modify the leaflet conatiner's background color. To do this, let's add a style tag inside the `<head>` section of `index.html`
 
