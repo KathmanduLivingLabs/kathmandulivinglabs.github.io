@@ -50,12 +50,19 @@ Let's start by quickly wiring up a basic leaflet map for our use. For this, we w
     <script>
         var osmURL = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
 
-         var mymap = L.map('my-map').setView([27.89512, 85.1], 11);
-         var baseTileLayer =   L.tileLayer(osmURL, { opacity: 0.4 }).addTo(this.map);
+        var mymap = L.map('my-map').setView([27.89512, 85.1], 11);
+        var baseTileLayer =   L.tileLayer(osmURL, { opacity: 0.4 }).addTo(this.map);
     </script>
 </body>
 
 </html>
 {% endhighlight %}
+
+At this point, I'd like to point out that since most of the code we will be working on will be inside the `<script>` tags inside the `<body>`, I'll only be sharing snippets from that section, and ignore the rest of the HTML.
+
+Before we move on, here's a screenshot of what the output currently looks like:
+
+![]({{ "/assets/img/scr_1.png" | absolute_url }})
+*Not much to see here at the moment.*
 
 For the purposes of this tutorial, we will be a GeoJSON file that contains the boundary for Neelakantha Municipality, Dhading.
