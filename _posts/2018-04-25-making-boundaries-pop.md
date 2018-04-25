@@ -13,7 +13,7 @@ In this post, I am going to walk you through a series of steps that will allow y
 ### So what are we doing again?
 Here is an image that showcases what we are trying to achieve by the end of this tutorial.
 
-![]({{ "/assets/img/boundary.png" | absolute_url }})
+![]({{ "/assets/img/scr_4.png" | absolute_url }})
 *Notice how areas outside the city has a reduced opacity, allowing us to draw the user’s attention to all of the content inside the boundary.*
 
 ### Before we begin
