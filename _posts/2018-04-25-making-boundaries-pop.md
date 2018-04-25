@@ -30,7 +30,7 @@ Let's start by quickly wiring up a basic leaflet map for our use. For this, we w
   - The bounding box and the zoom level will be set to around that of Neelakantha municipality.
   - The tilelayer that we will be using will be different to the one provided in the guide.
 
-#### Setting up the map
+#### Step 1: Wiring up a basic map
 {% highlight html %}
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -48,10 +48,8 @@ Let's start by quickly wiring up a basic leaflet map for our use. For this, we w
     <!-- Create a div where the map will reside -->
     <div id="my-map" style="height:180px;"></div>
     <script>
-        var osmURL = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
 
         var mymap = L.map('my-map').setView([27.89512, 85.1], 11);
-        var baseTileLayer =   L.tileLayer(osmURL, { opacity: 0.4 }).addTo(this.map);
     </script>
 </body>
 
@@ -65,4 +63,22 @@ Before we move on, here's a screenshot of what the output currently looks like:
 ![]({{ "/assets/img/scr_1.png" | absolute_url }})
 *Not much to see here at the moment.*
 
-For the purposes of this tutorial, we will be a GeoJSON file that contains the boundary for Neelakantha Municipality, Dhading.
+#### Step 2: Add the base tile layer
+
+Inside the script tag, we now create a new tile layer and add it to the map as follows.
+
+{% highlight html %}
+...
+
+<script>
+    var mymap = L.map('my-map').setView([27.89512, 85.1], 11);
+
+    var osmURL = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
+    var baseTileLayer = L.tileLayer(osmURL, { opacity: 0.4 });
+    baseTileLayer.addTo(mymap);
+</script>
+
+...
+{% endhighlight %}
+
+Notice how I've set the opacity of `baseTileLayer` to 40%.
