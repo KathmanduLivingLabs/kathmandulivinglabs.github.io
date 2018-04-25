@@ -71,11 +71,11 @@ Inside the script tag, we now create a new tile layer and add it to the map as f
 ...
 
 <script>
-    var mymap = L.map('my-map').setView([27.89512, 85.1], 11);
+  var mymap = L.map('my-map').setView([27.89512, 85.1], 11);
 
-    var osmURL = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
-    var baseTileLayer = L.tileLayer(osmURL, { opacity: 0.4 });
-    baseTileLayer.addTo(mymap);
+  var osmURL = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
+  var baseTileLayer = L.tileLayer(osmURL, { opacity: 0.4 });
+  baseTileLayer.addTo(mymap);
 </script>
 
 ...
@@ -86,14 +86,33 @@ Notice how I've set the opacity of `baseTileLayer` to 40%. Here's what the outpu
 
 #### Step 3: Loading the external GeoJSON boundary.
 
-The next step involves making the GeoJSON boundary file available for use within our `index.html`. For this we will have to make use of an external library called leaflet ajax. To do so, we simply load the script onto the head section of our document, like so:
+The next step involves making the GeoJSON boundary file available for use within our `index.html`. For this we will have to make use of the `$.ajax()` method available in jQuery. To do so, we first load jQuery as an external dependency onto the head section of our document, like so:
 
 {% highlight html %}
 ...
 <head>
   ...
-  <script src="/leaflet-ajax.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
   ...
 </head>
+...
+{% endhighlight %}
+
+After this, we can now access the GeoJSON as follows:
+{% highlight html %}
+...
+
+<script>
+  var mymap = L.map('my-map').setView([27.89512, 85.1], 11);
+  var osmURL = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
+  var baseTileLayer = L.tileLayer(osmURL, { opacity: 0.4 });
+  baseTileLayer.addTo(mymap);
+
+
+  $.ajax({mimeType: 'application/json', url: 'boundary.geojson'} ).done(function(data) {
+    console.log(data)
+  });
+</script>
+
 ...
 {% endhighlight %}
