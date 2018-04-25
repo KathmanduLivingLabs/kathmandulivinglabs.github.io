@@ -23,14 +23,14 @@ Here is an image that showcases what we are trying to achieve by the end of this
 
 ### Before we begin
 
-This tutorial assumes a basic understanding of [LeafletJS]("http://leafletjs.com/") and its API. If you are not familiar with this framework, I urge you to go through its <a href="http://leafletjs.com/examples.html">well curated collection of  tutorials</a> and [API reference documentation]("http://leafletjs.com/reference-1.3.0.html").
+This tutorial assumes a basic understanding of <a href="http://leafletjs.com/">LeafletJS</a> and its API. If you are not familiar with this framework, I urge you to go through its <a href="http://leafletjs.com/examples.html">well curated collection of  tutorials</a> and <a href="http://leafletjs.com/reference-1.3.0.html">API reference documentation</a>.
 
-I have also uploaded all of the resources used for this tutorial in the form of a github gist. You can view the code [in this github gist]("http://bl.ocks.org/arkoblog/1a0b65bd62686bab0d8a7ccca26be998").
+I have also uploaded all of the resources used for this tutorial in the form of a github gist. You can view the code <a href=""http://bl.ocks.org/arkoblog/1a0b65bd62686bab0d8a7ccca26be998"">in this github gist.</a>
 
 
 ### Step 1: Wiring up a basic map
 
-Let's start by quickly wiring up a basic leaflet map for our use. For this, we will be following the same procedure as outlined in Leaflet's official [quick start guide]("http://leafletjs.com/examples/quick-start/"), with the following differences:
+Let's start by quickly wiring up a basic leaflet map for our use. For this, we will be following the same procedure as outlined in Leaflet's official <a href="http://leafletjs.com/examples/quick-start/">quick start guide</a>, with the following differences:
 
   - The bounding box and the zoom level will be set to around that of Neelakantha municipality.
   - The tilelayer that we will be using will be different to the one provided in the guide.
@@ -125,7 +125,7 @@ After this, we can now access the GeoJSON as follows:
 
 ### Step 4: Making it pop!
 
-The final step involves adding one more tilelayer onto the original map. However, in this case, the tile layer will only be visible inside the boundary. This is achieved my making use of an external leaflet plugin called 'BoundaryCanvas', which allows us to draw tiled raster layers with an arbitrary boundary (in our case, `boundary.geojson`). You can learn more about its capabilities [here]("https://github.com/aparshin/leaflet-boundary-canvas").
+The final step involves adding one more tilelayer onto the original map. However, in this case, the tile layer will only be visible inside the boundary. This is achieved my making use of an external leaflet plugin called 'BoundaryCanvas', which allows us to draw tiled raster layers with an arbitrary boundary (in our case, `boundary.geojson`). You can learn more about its capabilities <a href="https://github.com/aparshin/leaflet-boundary-canvas">here</a>.
 
 We begin by loading the boundary canvas script within the head section of `index.html`.
 
