@@ -25,4 +25,20 @@ I have also uploaded all of the resources used for this tutorial in the form of 
 
 ### So let's get going.
 
+We first begin by instantiating our map in `index.html`.
+
+{% highlight html linenos %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Making Cities Pop - Final Output</title>
+  </head>
+  <body>
+  </body>
+</html>
+{% endhighlight %}
+
+
+
 For the purposes of this tutorial, we will be a GeoJSON file that contains the boundary for Neelakantha Municipality, Dhading.
