@@ -6,6 +6,8 @@ summary:    A small tutorial that explains how you can clip map tile layers base
 categories: tutorials
 ---
 
+*A small tutorial that explains how you can clip map tile layers based on an external GeoJSON boundary in Leaflet.*
+
 When designing maps for our projects here at KLL, a very common request that we receive in the early stages of development of any map-based app, is to make the geographical area that is the focus of the project stand out.
 
 In this post, I am going to walk you through a series of steps that will allow you to clip the standard OSM tilelayer based on a geographic boundary.
@@ -23,7 +25,7 @@ Here is an image that showcases what we are trying to achieve by the end of this
 
 This tutorial assumes a basic understanding of [LeafletJS]("http://leafletjs.com/") and its API. If you are not familiar with this framework, I urge you to go through its [well curated collection of  tutorials]("http://leafletjs.com/examples.html") and [API reference documentation]("http://leafletjs.com/reference-1.3.0.html").
 
-I have also uploaded all of the resources used for this tutorial in the form of a github gist. You can view the code [here]("#").
+I have also uploaded all of the resources used for this tutorial in the form of a github gist. You can view the code [here]("https://bl.ocks.org/arkoblog/1a0b65bd62686bab0d8a7ccca26be998").
 
 
 ### Step 1: Wiring up a basic map
@@ -163,7 +165,7 @@ Finally, we add the additional tile layer inside the `$.ajax()` call as follows:
 If all goes well, here's what you will see:
 ![]({{ "/assets/img/scr_3.png" | absolute_url }})
 
-To make the municipality stand out a little more, let's modify the leaflet conatiner's background color. To do this, let's add a style tag inside the `<head>` section of `index.html`
+To make the municipality stand out a little more, let's modify the leaflet container's background color. To do this, let's add a style tag inside the `<head>` section of `index.html`
 
 {% highlight html %}
 ...
