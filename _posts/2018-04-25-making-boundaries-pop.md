@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      Making cities pop
+title:      Making cities pop!
 date:       2018-04-18 09:06:29
-summary:    A small tutorial that explains how you can clip map tile layers based on an external GeoJSON boundary in Leaflet. 
+summary:    A small tutorial that explains how you can clip map tile layers based on an external GeoJSON boundary in Leaflet.
 categories: tutorials
 ---
 
