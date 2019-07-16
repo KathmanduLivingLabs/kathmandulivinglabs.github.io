@@ -7,7 +7,7 @@ categories: tutorials
 ---
 *Tutorial on android development for beginners. The documentation includes the fundamental concepts on android programming.*
 
-# Unit 1.0: Introduction to Android 
+## Unit 1.0: Introduction to Android 
 
 ## What is Android?
 
@@ -42,7 +42,7 @@ apps for android users.
 - Remain Compatible with older versions.
 
 
-# Unit 1.1: Develop first android app
+## Unit 1.1: Develop first android app
 
 ## The development process: 
 - Start with an idea then determine the requirements for the idea. 
@@ -66,7 +66,7 @@ Build.gradle(Module: app) is used to declare dependencies. This build.gradle exi
 
 Layout files include the layouts for activities and Resource files include all necessary resources including layouts, drawable, mipmap and values.
 
-# Unit 1.2: Layout and Resources for UI
+## Unit 1.2: Layout and Resources for UI
 
 ###### For a button
 
@@ -96,7 +96,7 @@ To identify a view id is used. Android:id = “@+id/button_count”
 
 ## Positioning a view
 
-######LinearLayout positioning
+###### LinearLayout positioning
 
 android: layout_width
 android: layout_height
@@ -157,7 +157,7 @@ Public void countUp(View view){
 Here mCount is converted to string and set string as text for mShowCount object.
 mShowCount.setText() method updates the text view on the screen.
 
-# Unit 1.3: Scrolling Views
+## Unit 1.3: Scrolling Views
 Complex layout with ScrollView will suffer from performance issues. Better not to use images or long list of items. For that Recycler View is preferred.
 
 When using linear layout inside scroll view. For layout_width use match_parent and for layout_height use wrap_content.
@@ -166,7 +166,7 @@ wrap_content //occupies space only that is required.
 *ScrollView supports vertical scrolling. So android:orientation = “vertical”*
 *For horizontal scrolling we use HorizontalScrollView*
 
-# Unit 1.4:Recycler Views
+## Unit 1.4:Recycler Views
 Display large scrollable datasets by maintaining limited number of view items. The RecyclerView keeps as many View items as can fit on the screen, plus a few extra at each end of the list to make sure that scrolling is fast and smooth.
 
 ## To display data in a RecyclerView: requirements
@@ -204,7 +204,7 @@ Display large scrollable datasets by maintaining limited number of view items. T
 10. Use the onBindViewHolder to show data inside adapter for each position.
 
 
-# Unit 2.1 : Activities and Intents
+## Unit 2.1 : Activities and Intents
 
 Application is a collection of activities created or that you reuse from other apps.
 Activities are independent of each other.
@@ -273,7 +273,7 @@ Used to call a specific component. Suppose activity B is launched from activity 
 You know what is to be done. But don’t know which activity is to be launched. Or, user has option to choose between various components. Implicit intent is delivered to a component only if it can pass through one of the component’s filters.
 
 
-# Unit 2.2: Activity lifecycle and state
+## Unit 2.2: Activity lifecycle and state
 
 Activity lifecycle: set of states an activity can be in during its entire lifetime, from the time it is created to it is destroyed.
 
@@ -295,7 +295,7 @@ Destroyed<-----onDestroy()-------------Stopped	            |<----------------Pau
 				          |<--------------------------------onStop()
 				
 
-# Unit 3: Retrofit:
+## Unit 3: Retrofit:
 
 - Retrofit is REST client for JAVA and android. 
 - 3 things to integrate retrofit to android application:
