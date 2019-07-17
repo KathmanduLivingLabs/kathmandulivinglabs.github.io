@@ -68,7 +68,7 @@ Layout files include the layouts for activities and Resource files include all n
 
 ## Unit 1.2: Layout and Resources for UI
 
-###### For a button
+### For a button
 
 Attributes: 
 - Id
@@ -96,7 +96,7 @@ To identify a view id is used. Android:id = “@+id/button_count”
 
 ## Positioning a view
 
-###### LinearLayout positioning
+### LinearLayout positioning
 
 android: layout_width
 android: layout_height
@@ -106,7 +106,7 @@ layout_width and layout_height takes either match_parent or wrap_content or a fi
 orientation can be horizontal or vertical.
 android: layout_gravity is used to place the UI element with respect to its parent. Example: android: layout_gravity = “center_horizontal”
 
-## RelativeLayout positioning: arrange child view with respect to its parent
+### RelativeLayout positioning: arrange child view with respect to its parent
 
 android: layout_toLeftOf: positions right edge of this view to left of another view.
 android: layout_toRightOf: left edge of this view to right of another view.
@@ -137,12 +137,12 @@ Example: android : text = "@string/button_label_toast"
 
 Color: colorPrimary is used for app bar is a predefined base color.
 
-###### The onClick attribute
+### The onClick attribute
 
 android: onClick = “showToast” 
 Here showToast() is a method that is to be defined in MainActivity.java. It must be public and return void. Method defines what is to be done when button is clicked.
 
-###### Updating view:
+### Updating view:
 
 mShowCount = (TextView) findViewById(R.id.show_count);
 // when mShowCount is updated TextView is updated.
@@ -190,7 +190,7 @@ Display large scrollable datasets by maintaining limited number of view items. T
 - Extend RecyclerView.Viewholder to create view holder for item layout. You can add click behaviour by overriding onClick() method.
 - In the Activity inside onCreate() method create RecyclerView and initialize it with adapter and layout manager.
 
-###### Steps:
+### Steps:
 1. In Build.gradle put support library. 
 	Implementation ‘com.android.support:recyclerview-v7:28.0.0’
 2. Add RecyclerView in XML.
@@ -218,7 +218,7 @@ The main activity is the first activity that is seen when users launch an app. E
 
 While creating a new project or adding a new activity by choosing File > New > Activity, template automatically performs above steps.
 
-###### Create an activity
+### Create an activity
 
 When we create a new project in Android Studio and choose backward compatibility(AppCompat), Main Activity will be by default a subclass of AppCompatActivity class. The AppCompatActivity class will help you to use up-to-date android features(app bar and Material Design). It also makes it compatible with devices having older versions of Android.
 
@@ -240,7 +240,7 @@ When the setContentView() method is called with path to the layout file, the sys
 - Doesn’t mean activity is destroyed.
 - Commit the changes done before.
 
-###### Implement activity’s UI in the layout file => XML file.
+### Implement activity’s UI in the layout file => XML file.
 
 **AndroidManifest.xml file**
 
@@ -277,23 +277,13 @@ You know what is to be done. But don’t know which activity is to be launched. 
 
 Activity lifecycle: set of states an activity can be in during its entire lifetime, from the time it is created to it is destroyed.
 
-       |-----Start activity 2------->|    |------------------Navigate Back----------------->|
-Activity 1  		      Activity 2 				|		Activity 1
-			(Activity 1 stopped)		Activity 2 destroyed
-					(By system if user doesn’t resume)
-Activity state and  lifecycle callback methods :
-app-----onCreate()------>Created ------onStart()----->Started --------|
-					           |				           |
-				          /---------|		  	    onResume()
-				         |				  	           |
-				         |		       	|----------->   Resumed
-				onRestart()		|		          |
-				         |			|	       onPause()
-				         |		onResume()		          |
-Destroyed<-----onDestroy()-------------Stopped	            |<----------------Paused
-				          |					          |
-				          |<--------------------------------onStop()
-				
+![]({{ "/assets/img/activityLifeCycle.png" | absolute_url }})
+
+
+**Activity state and lifecycle callback methods :**
+
+![]({{ "/assets/img/Callbackstate.png" | absolute_url }})
+
 
 ## Unit 3: Retrofit:
 
