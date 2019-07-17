@@ -261,11 +261,12 @@ While creating new activity or starting a project activity is declared.
 <application> 
 <activity> //attributes are defined like name, label, icon, theme. Required is only android:name. 
 
-For example: <activity android:name = “MainActivity”> 
+For example: 
+<activity android:name = “MainActivity”> 
 <intent-filter>// defines the kind of intent accepted by the activity.
 // intent filter can include action, category and sometimes data element. Action defines Main action and category defines launcher which helps to launch the app.
-	<action android:name = ‘android.intent.action.Main’/> // specifies this activity is the main entry point to app.
-	<category android:name = ‘android.intent.category.Launcher’/> //this activity should be in system’s app launcher.
+<action android:name = ‘android.intent.action.Main’/> // specifies this activity is the main entry point to app.
+<category android:name = ‘android.intent.category.Launcher’/> //this activity should be in system’s app launcher.
 </intent-filter>
 </activity>
 </application> 
