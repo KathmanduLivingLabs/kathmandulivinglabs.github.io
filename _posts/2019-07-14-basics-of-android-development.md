@@ -16,10 +16,12 @@ categories: tutorials
 apps for android users.
 
 ## Why develop apps for Android ?
+
 - Address business Requirement.
 - Reach the majority of mobile users.
 
 ## Best Experience for app users
+
 - Android provides touch interface.
 - To develop apps using SDK Java programming language is used to develop the app.
 - Extensible Markup Language(XML) file to describe data resources.
@@ -36,6 +38,7 @@ apps for android users.
 **Note:** *Use android support library to use recent android platform API’s on older devices.*
 
 ## Challenges to develop android app:
+
 - Design UI elements that work on all devices.
 - Use ProGuard in Android Studio. ProGuard helps to detect and remove unused classes, fields, attributes, methods etc
 - Encrypt the code while packaging app.
@@ -45,6 +48,7 @@ apps for android users.
 ## Unit 1.1: Develop first android app
 
 ## The development process: 
+
 - Start with an idea then determine the requirements for the idea. 
 - Sketch UIs for various app functions.
 - In android studio:
@@ -54,7 +58,9 @@ apps for android users.
 	- Build and Run
 	- Test and debug
 	- Publish
-###### Steps
+
+### Steps
+
 1. Start Android studio project providing an application name. The project name should be same name that you would want for the app. Company domain name should be a unique package name if you want to publish the app in Google Play.
 2. When choosing Target Android Devices, Phone and Tablet are selected by default. The Minimum SDK declares the minimum Android version for your app. Each successive version of Android provides compatibility for apps that were built using the APIs from previous versions. That means your app should always be compatible with future versions of Android, if you use the documented Android APIs.
 3. Select activity template then configure your project
@@ -115,14 +121,15 @@ android: layout_centerVertical: vertically centers w.r.t its parent.
 android: layout_alignParentTop: top edge of this view matches with top edge of parent.
 android: layout_alignParentBottom: bottom edge of this view is matched with bottom edge of the parent.
 
-## Style related attributes
+### Style related attributes
+
 android : textStyle
 android : textSize
 android : background
 android : text
 android : textColor
 
-## Resource Files
+### Resource Files
 - Stores strings, colors, menu text, styles, layouts, dimensions. It includes:
 	- drawable
 	- layout
@@ -158,6 +165,7 @@ Here mCount is converted to string and set string as text for mShowCount object.
 mShowCount.setText() method updates the text view on the screen.
 
 ## Unit 1.3: Scrolling Views
+
 Complex layout with ScrollView will suffer from performance issues. Better not to use images or long list of items. For that Recycler View is preferred.
 
 When using linear layout inside scroll view. For layout_width use match_parent and for layout_height use wrap_content.
@@ -167,9 +175,11 @@ wrap_content //occupies space only that is required.
 *For horizontal scrolling we use HorizontalScrollView*
 
 ## Unit 1.4:Recycler Views
+
 Display large scrollable datasets by maintaining limited number of view items. The RecyclerView keeps as many View items as can fit on the screen, plus a few extra at each end of the list to make sure that scrolling is fast and smooth.
 
 ## To display data in a RecyclerView: requirements
+
 - Data(from database or cloud)
 - A RecyclerView(scrolling list, container of view items)
 - Layout for one item of data(all items will look same so same layout can be used. Item layout is separate from activity because one view item at a time can be created and filled with data.)
@@ -222,7 +232,8 @@ While creating a new project or adding a new activity by choosing File > New > A
 
 When we create a new project in Android Studio and choose backward compatibility(AppCompat), Main Activity will be by default a subclass of AppCompatActivity class. The AppCompatActivity class will help you to use up-to-date android features(app bar and Material Design). It also makes it compatible with devices having older versions of Android.
 
-**Activity Life Cycle:** The set of states an activity can be in: when it is first created, when it is stopped or resumed and when a system destroys it.
+**Activity Life Cycle:** 
+The set of states an activity can be in: when it is first created, when it is stopped or resumed and when a system destroys it.
 
 The first task in activity subclass is to implement standard Activity lifecycle callback methods to handle state changes for your activity. For example onCreate() method.
 
@@ -264,7 +275,7 @@ For example: <activity android:name = “MainActivity”>
 - Message object that sends request to android runtime to start an activity.
 - Also used to pass data between one activity and another.
 
-**Types:**
+### Types:
 
 **Explicit:** 
 Used to call a specific component. Suppose activity B is launched from activity A. then explicit intent is used to call directly targeting activity B. explicit intent is always delivered to the target, not consulting filters.
@@ -324,3 +335,8 @@ Describing query parameters in URL:
 
 URL Manipulation:
 @GET(“group/{id}/users”)
+
+
+#### Reference: 
+
+https://google-developer-training.github.io/android-developer-fundamentals-course-concepts-v2/
