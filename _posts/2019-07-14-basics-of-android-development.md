@@ -339,4 +339,4 @@ URL Manipulation:
 
 #### Reference: 
 
-https://google-developer-training.github.io/android-developer-fundamentals-course-concepts-v2/
+[Android Developer Fundamental Course Concepts-V2](https://google-developer-training.github.io/android-developer-fundamentals-course-concepts-v2/)
