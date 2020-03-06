@@ -1,3 +1,11 @@
+---
+layout:     post
+title:      Vidya for Parents Privacy Policy
+date:       2020-03-06 12:06:29
+summary:    This privacy policy has been compiled to better serve those who are concerned with how their 'Personally Identifiable Information'..
+categories: tutorials
+---
+
 ## Privacy Policy
 
 Kathmandu Living Labs built the Vidya for Parents app as a Free app. This SERVICE is provided by Kathmandu Living Labs at no cost and is intended for use as is.
