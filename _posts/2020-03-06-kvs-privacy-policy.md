@@ -1,5 +1,10 @@
-
-
+---
+layout:     post
+title:      Vidya for School Privacy Policy
+date:       2020-03-06 13:54:00
+summary:    This privacy policy has been compiled to better serve those who are concerned with how their 'Personally Identifiable Information'..
+categories: tutorials
+---
 Kathamndu Living Labs built the Vidya App for School app as a Free app. This SERVICE is provided by Kathamndu Living Labs at no cost and is intended for use as is.
 
 This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.
@@ -17,6 +22,7 @@ The app does use third party services that may collect information used to ident
 Link to privacy policy of third party service providers used by the app
 
 *   [Google Play Services](https://www.google.com/policies/privacy/)
+*   [Apple App Store](https://apple.com/legal/privacy/)
 
 **Log Data**
 
