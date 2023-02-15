@@ -1,16 +1,975 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>KLL Tech Blog.</title>
+    <title>Tech@KLL.</title>
     <description>We wanted to talk about what we do here at the KLL tech room, so we hacked up a nifty little blog using Jekyll.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>First post.</title>
-        <description>&lt;p&gt;Over the last few months, one constantly recurring topic of discussion amongst the people inside the KLL tech room has been around whether we are doing enough to  share and talk of our work to the outside world.&lt;/p&gt;
+        <title>Explore Pokhara Privacy Policy</title>
+        <description>&lt;h2 id=&quot;explore-pokhara-mobile-application-privacy-policy&quot;&gt;Explore Pokhara Mobile Application Privacy Policy&lt;/h2&gt;
 
-&lt;p&gt;This blog is an effort in that direction. We feel that just the simple act of practicing writing about our work, will help steer us to our goal.&lt;/p&gt;
+&lt;p&gt;This privacy policy has been compiled to better serve those who are concerned with how their ‘Personally Identifiable Information’ (PII) is being used online. PII, as described in US privacy law and information security, is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. Please read our privacy policy carefully to get a clear understanding of how we collect, use, protect or otherwise handle your Personally Identifiable Information in accordance with our website.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-personal-information-do-we-collect-from-the-people-that-visit-our-blog-website-or-app&quot;&gt;What personal information do we collect from the people that visit our blog, website or app?&lt;/h3&gt;
+
+&lt;p&gt;We do not collect personal information on our users ourselves. However we use Mapbox SDK and OSM for Map tile and navigation. For details read the Mapbox Privacy Policy https://https://www.mapbox.com/privacy/&lt;/p&gt;
+
+&lt;h3 id=&quot;do-we-use-cookies&quot;&gt;Do we use ‘cookies’?&lt;/h3&gt;
+
+&lt;p&gt;We do not use cookies for tracking purposes&lt;/p&gt;
+
+&lt;p&gt;You can choose to have your computer warn you each time a cookie is being sent, or you can choose to turn off all cookies. You do this through your browser settings. Since browser is a little different, look at your browser’s Help Menu to learn the correct way to modify your cookies.&lt;/p&gt;
+
+&lt;p&gt;If you turn cookies off, Some of the features that make your site experience more efficient may not function properly.that make your site experience more efficient and may not function properly.&lt;/p&gt;
+
+&lt;h3 id=&quot;third-party-disclosure&quot;&gt;Third-party disclosure&lt;/h3&gt;
+
+&lt;p&gt;We do not sell, trade, or otherwise transfer to outside parties your Personally Identifiable Information.&lt;/p&gt;
+
+&lt;h3 id=&quot;third-party-links&quot;&gt;Third-party links&lt;/h3&gt;
+
+&lt;p&gt;We do not include or offer third-party products or services on our website.&lt;/p&gt;
+
+&lt;h3 id=&quot;google&quot;&gt;Google&lt;/h3&gt;
+
+&lt;p&gt;Google’s advertising requirements can be summed up by Google’s Advertising Principles. They are put in place to provide a positive experience for users. https://support.google.com/adwordspolicy/answer/1316548?hl=en&lt;/p&gt;
+
+&lt;p&gt;We use Google Analytics on our website.&lt;/p&gt;
+
+&lt;p&gt;Google, as a third-party vendor, uses cookies on our site. Google’s use of the DART cookie. Users may opt-out of the use of the DART cookie by visiting the Google Ad and Content Network privacy policy.&lt;/p&gt;
+
+&lt;p&gt;We have implemented the following:
+• Demographics and Interests Reporting&lt;/p&gt;
+
+&lt;p&gt;We, along with third-party vendors such as Google use first-party cookies (such as the Google Analytics cookies) and third-party cookies (such as the DoubleClick cookie) or other third-party identifiers together
+Look at user interaction and improve the app and website&lt;/p&gt;
+
+&lt;h3 id=&quot;opting-out&quot;&gt;Opting out:&lt;/h3&gt;
+
+&lt;p&gt;Users can set preferences for how Google advertises to you using the Google Ad Settings page. Alternatively, you can opt out by visiting the Network Advertising Initiative Opt Out page or by using the Google Analytics Opt Out Browser add on.&lt;/p&gt;
+
+&lt;h3 id=&quot;california-online-privacy-protection-act&quot;&gt;California Online Privacy Protection Act&lt;/h3&gt;
+
+&lt;p&gt;CalOPPA is the first state law in the nation to require commercial websites and online services to post a privacy policy. The law’s reach stretches well beyond California to require any person or company in the United States (and conceivably the world) that operates websites collecting Personally Identifiable Information from California consumers to post a conspicuous privacy policy on its website stating exactly the information being collected and those individuals or companies with whom it is being shared. - See more at: http://consumercal.org/california-online-privacy-protection-act-caloppa/#sthash.0FdRbT51.dpuf&lt;/p&gt;
+
+&lt;p&gt;According to CalOPPA, we agree to the following:
+Users can visit our site anonymously.
+Once this privacy policy is created, we will add a link to it on our home page or as a minimum, on the first significant page after entering our website.
+Our Privacy Policy link includes the word ‘Privacy’ and can easily be found on the page specified above.&lt;/p&gt;
+
+&lt;p&gt;You will be notified of any Privacy Policy changes:
+• On our Privacy Policy Page&lt;/p&gt;
+
+&lt;p&gt;Can change your personal information:
+• By logging in to your account&lt;/p&gt;
+
+&lt;h3 id=&quot;how-does-our-site-handle-do-not-track-signals&quot;&gt;How does our site handle Do Not Track signals?&lt;/h3&gt;
+
+&lt;p&gt;We honor Do Not Track signals and Do Not Track, plant cookies, or use advertising when a Do Not Track (DNT) browser mechanism is in place.&lt;/p&gt;
+
+&lt;h3 id=&quot;does-our-site-allow-third-party-behavioral-tracking&quot;&gt;Does our site allow third-party behavioral tracking?&lt;/h3&gt;
+
+&lt;p&gt;It’s also important to note that we do not allow third-party behavioral tracking.&lt;/p&gt;
+
+&lt;h3 id=&quot;coppa-children-online-privacy-protection-act&quot;&gt;COPPA (Children Online Privacy Protection Act)&lt;/h3&gt;
+
+&lt;p&gt;When it comes to the collection of personal information from children under the age of 13 years old, the Children’s Online Privacy Protection Act (COPPA) puts parents in control. The Federal Trade Commission, United States’ consumer protection agency, enforces the COPPA Rule, which spells out what operators of websites and online services must do to protect children’s privacy and safety online.&lt;/p&gt;
+
+&lt;p&gt;We do not specifically market to children under the age of 13 years old.
+Do we let third-parties, including ad networks or plug-ins collect PII from children under 13?&lt;/p&gt;
+
+&lt;h3 id=&quot;fair-information-practices&quot;&gt;Fair Information Practices&lt;/h3&gt;
+
+&lt;p&gt;The Fair Information Practices Principles form the backbone of privacy law in the United States and the concepts they include have played a significant role in the development of data protection laws around the globe. Understanding the Fair Information Practice Principles and how they should be implemented is critical to comply with the various privacy laws that protect personal information.&lt;/p&gt;
+
+&lt;p&gt;In order to be in line with Fair Information Practices we will take the following responsive action, should a data breach occur:
+We will notify you via email
+• Within 7 business days&lt;/p&gt;
+
+&lt;p&gt;We will notify the users via in-site notification
+• Within 7 business days&lt;/p&gt;
+
+&lt;p&gt;We also agree to the Individual Redress Principle which requires that individuals have the right to legally pursue enforceable rights against data collectors and processors who fail to adhere to the law. This principle requires not only that individuals have enforceable rights against data users, but also that individuals have recourse to courts or government agencies to investigate and/or prosecute non-compliance by data processors.&lt;/p&gt;
+
+&lt;h3 id=&quot;can-spam-act&quot;&gt;CAN SPAM Act&lt;/h3&gt;
+
+&lt;p&gt;The CAN-SPAM Act is a law that sets the rules for commercial email, establishes requirements for commercial messages, gives recipients the right to have emails stopped from being sent to them, and spells out tough penalties for violations.&lt;/p&gt;
+
+&lt;p&gt;We collect your email address in order to:
+• Send information, respond to inquiries, and/or other requests or questions&lt;/p&gt;
+
+&lt;p&gt;To be in accordance with CANSPAM, we agree to the following:
+• Not use false or misleading subjects or email addresses.
+• Identify the message as an advertisement in some reasonable way.
+• Include the physical address of our business or site headquarters.
+• Monitor third-party email marketing services for compliance, if one is used.
+• Honor opt-out/unsubscribe requests quickly.
+• Allow users to unsubscribe by using the link at the bottom of each email.&lt;/p&gt;
+
+&lt;p&gt;If at any time you would like to unsubscribe from receiving future emails, you can email us at
+kathmandulivinglabs@gmail.com and we will promptly remove you from ALL correspondence.&lt;/p&gt;
+
+&lt;h3 id=&quot;contacting-us&quot;&gt;Contacting Us&lt;/h3&gt;
+
+&lt;p&gt;If there are any questions regarding this privacy policy, you may contact us using the information below.&lt;/p&gt;
+
+&lt;p&gt;kathmandulivinglabs.org
+1474 Lamtangin Marga
+Kathmandu, Bagmati 44600
+Nepal
+kathmandulivinglabs@gmail.com&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Last Edited on 2019-08-06&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 14 Feb 2023 19:39:00 +0545</pubDate>
+        <link>http://localhost:4000/privacypolicy/2023/02/14/Explore-Pokhara-Privacy-Policy/</link>
+        <guid isPermaLink="true">http://localhost:4000/privacypolicy/2023/02/14/Explore-Pokhara-Privacy-Policy/</guid>
+      </item>
+    
+      <item>
+        <title>Vidya for Teachers Privacy Policy</title>
+        <description>&lt;p&gt;Kathamndu Living Labs built the Vidya for Teachers app as a Free app. This SERVICE is provided by Kathamndu Living Labs at no cost and is intended for use as is.&lt;/p&gt;
+
+&lt;p&gt;This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.&lt;/p&gt;
+
+&lt;p&gt;If you choose to use our Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.&lt;/p&gt;
+
+&lt;p&gt;The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at Vidya for Teachers unless otherwise defined in this Privacy Policy.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Information Collection and Use&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information, including but not limited to Email addresses, Phone number. The information that we request will be retained by us and used as described in this privacy policy.&lt;/p&gt;
+
+&lt;p&gt;The app does use third party services that may collect information used to identify you.&lt;/p&gt;
+
+&lt;p&gt;Link to privacy policy of third party service providers used by the app&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.google.com/policies/privacy/&quot;&gt;Google Play Services&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apple.com/legal/privacy/&quot;&gt;Apple App Store&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Log Data&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We want to inform you that whenever you use our Service, in a case of an error in the app we collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing our Service, the time and date of your use of the Service, and other statistics.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Cookies&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device’s internal memory.&lt;/p&gt;
+
+&lt;p&gt;This Service does not use these “cookies” explicitly. However, the app may use third party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Service Providers&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We may employ third-party companies and individuals due to the following reasons:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;To facilitate our Service;&lt;/li&gt;
+  &lt;li&gt;To provide the Service on our behalf;&lt;/li&gt;
+  &lt;li&gt;To perform Service-related services; or&lt;/li&gt;
+  &lt;li&gt;To assist us in analyzing how our Service is used.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We want to inform users of this Service that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Security&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Links to Other Sites&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Children’s Privacy&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;These Services do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13. In the case we discover that a child under 13 has provided us with personal information, we immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to do necessary actions.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Changes to This Privacy Policy&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Contact Us&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at kathmandulivinglabs@gmail.com.&lt;/p&gt;
+
+&lt;p&gt;This privacy policy page was created at &lt;a href=&quot;https://privacypolicytemplate.net&quot;&gt;privacypolicytemplate.net&lt;/a&gt; and modified/generated by &lt;a href=&quot;https://app-privacy-policy-generator.firebaseapp.com/&quot;&gt;App Privacy Policy Generator&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 06 Mar 2020 19:39:00 +0545</pubDate>
+        <link>http://localhost:4000/tutorials/2020/03/06/kvs-privacy-policy/</link>
+        <guid isPermaLink="true">http://localhost:4000/tutorials/2020/03/06/kvs-privacy-policy/</guid>
+      </item>
+    
+      <item>
+        <title>Vidya for Parents Privacy Policy</title>
+        <description>&lt;p&gt;Kathmandu Living Labs built the Vidya for Parents app as a Free app. This SERVICE is provided by Kathmandu Living Labs at no cost and is intended for use as is.&lt;/p&gt;
+
+&lt;p&gt;This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.&lt;/p&gt;
+
+&lt;p&gt;If you choose to use our Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.&lt;/p&gt;
+
+&lt;p&gt;The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at Vidya for Parents unless otherwise defined in this Privacy Policy.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Information Collection and Use&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information, including but not limited to Email addresses, Phone number. The information that we request will be retained by us and used as described in this privacy policy.&lt;/p&gt;
+
+&lt;p&gt;The app does use third party services that may collect information used to identify you.&lt;/p&gt;
+
+&lt;p&gt;Link to privacy policy of third party service providers used by the app&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.google.com/policies/privacy/&quot;&gt;Google Play Services&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apple.com/legal/privacy/&quot;&gt;Apple App Store&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Log Data&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We want to inform you that whenever you use our Service, in a case of an error in the app we collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing our Service, the time and date of your use of the Service, and other statistics.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Cookies&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device’s internal memory.&lt;/p&gt;
+
+&lt;p&gt;This Service does not use these “cookies” explicitly. However, the app may use third party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Service Providers&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We may employ third-party companies and individuals due to the following reasons:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;To facilitate our Service;&lt;/li&gt;
+  &lt;li&gt;To provide the Service on our behalf;&lt;/li&gt;
+  &lt;li&gt;To perform Service-related services; or&lt;/li&gt;
+  &lt;li&gt;To assist us in analyzing how our Service is used.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We want to inform users of this Service that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Security&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Links to Other Sites&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Children’s Privacy&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;These Services do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13. In the case we discover that a child under 13 has provided us with personal information, we immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to do necessary actions.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Changes to This Privacy Policy&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Contact Us&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at kathmandulivinglabs@gmail.com.&lt;/p&gt;
+
+&lt;p&gt;This privacy policy page was created at &lt;a href=&quot;https://privacypolicytemplate.net&quot;&gt;privacypolicytemplate.net&lt;/a&gt; and modified/generated by &lt;a href=&quot;https://app-privacy-policy-generator.firebaseapp.com/&quot;&gt;App Privacy Policy Generator&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 06 Mar 2020 17:51:29 +0545</pubDate>
+        <link>http://localhost:4000/tutorials/2020/03/06/kv-privacy-policy/</link>
+        <guid isPermaLink="true">http://localhost:4000/tutorials/2020/03/06/kv-privacy-policy/</guid>
+      </item>
+    
+      <item>
+        <title>Explore Indore Privacy Policy</title>
+        <description>&lt;h2 id=&quot;explore-indore-mobile-application-privacy-policy&quot;&gt;Explore Indore Mobile Application Privacy Policy&lt;/h2&gt;
+
+&lt;p&gt;This privacy policy has been compiled to better serve those who are concerned with how their ‘Personally Identifiable Information’ (PII) is being used online. PII, as described in US privacy law and information security, is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. Please read our privacy policy carefully to get a clear understanding of how we collect, use, protect or otherwise handle your Personally Identifiable Information in accordance with our website.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-personal-information-do-we-collect-from-the-people-that-visit-our-blog-website-or-app&quot;&gt;What personal information do we collect from the people that visit our blog, website or app?&lt;/h3&gt;
+
+&lt;p&gt;We do not collect personal information on our users ourselves. However we use Mapbox SDK and OSM for Map tile and navigation. For details read the Mapbox Privacy Policy https://https://www.mapbox.com/privacy/&lt;/p&gt;
+
+&lt;h3 id=&quot;do-we-use-cookies&quot;&gt;Do we use ‘cookies’?&lt;/h3&gt;
+
+&lt;p&gt;We do not use cookies for tracking purposes&lt;/p&gt;
+
+&lt;p&gt;You can choose to have your computer warn you each time a cookie is being sent, or you can choose to turn off all cookies. You do this through your browser settings. Since browser is a little different, look at your browser’s Help Menu to learn the correct way to modify your cookies.&lt;/p&gt;
+
+&lt;p&gt;If you turn cookies off, Some of the features that make your site experience more efficient may not function properly.that make your site experience more efficient and may not function properly.&lt;/p&gt;
+
+&lt;h3 id=&quot;third-party-disclosure&quot;&gt;Third-party disclosure&lt;/h3&gt;
+
+&lt;p&gt;We do not sell, trade, or otherwise transfer to outside parties your Personally Identifiable Information.&lt;/p&gt;
+
+&lt;h3 id=&quot;third-party-links&quot;&gt;Third-party links&lt;/h3&gt;
+
+&lt;p&gt;We do not include or offer third-party products or services on our website.&lt;/p&gt;
+
+&lt;h3 id=&quot;google&quot;&gt;Google&lt;/h3&gt;
+
+&lt;p&gt;Google’s advertising requirements can be summed up by Google’s Advertising Principles. They are put in place to provide a positive experience for users. https://support.google.com/adwordspolicy/answer/1316548?hl=en&lt;/p&gt;
+
+&lt;p&gt;We use Google Analytics on our website.&lt;/p&gt;
+
+&lt;p&gt;Google, as a third-party vendor, uses cookies on our site. Google’s use of the DART cookie. Users may opt-out of the use of the DART cookie by visiting the Google Ad and Content Network privacy policy.&lt;/p&gt;
+
+&lt;p&gt;We have implemented the following:
+  	• Demographics and Interests Reporting&lt;/p&gt;
+
+&lt;p&gt;We, along with third-party vendors such as Google use first-party cookies (such as the Google Analytics cookies) and third-party cookies (such as the DoubleClick cookie) or other third-party identifiers together
+Look at user interaction and improve the app and website&lt;/p&gt;
+
+&lt;h3 id=&quot;opting-out&quot;&gt;Opting out:&lt;/h3&gt;
+
+&lt;p&gt;Users can set preferences for how Google advertises to you using the Google Ad Settings page. Alternatively, you can opt out by visiting the Network Advertising Initiative Opt Out page or by using the Google Analytics Opt Out Browser add on.&lt;/p&gt;
+
+&lt;h3 id=&quot;california-online-privacy-protection-act&quot;&gt;California Online Privacy Protection Act&lt;/h3&gt;
+
+&lt;p&gt;CalOPPA is the first state law in the nation to require commercial websites and online services to post a privacy policy. The law’s reach stretches well beyond California to require any person or company in the United States (and conceivably the world) that operates websites collecting Personally Identifiable Information from California consumers to post a conspicuous privacy policy on its website stating exactly the information being collected and those individuals or companies with whom it is being shared. - See more at: http://consumercal.org/california-online-privacy-protection-act-caloppa/#sthash.0FdRbT51.dpuf&lt;/p&gt;
+
+&lt;p&gt;According to CalOPPA, we agree to the following:
+Users can visit our site anonymously.
+Once this privacy policy is created, we will add a link to it on our home page or as a minimum, on the first significant page after entering our website.
+Our Privacy Policy link includes the word ‘Privacy’ and can easily be found on the page specified above.&lt;/p&gt;
+
+&lt;p&gt;You will be notified of any Privacy Policy changes:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;• On our Privacy Policy Page
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Can change your personal information:
+  	• By logging in to your account&lt;/p&gt;
+
+&lt;h3 id=&quot;how-does-our-site-handle-do-not-track-signals&quot;&gt;How does our site handle Do Not Track signals?&lt;/h3&gt;
+&lt;p&gt;We honor Do Not Track signals and Do Not Track, plant cookies, or use advertising when a Do Not Track (DNT) browser mechanism is in place.&lt;/p&gt;
+
+&lt;h3 id=&quot;does-our-site-allow-third-party-behavioral-tracking&quot;&gt;Does our site allow third-party behavioral tracking?&lt;/h3&gt;
+&lt;p&gt;It’s also important to note that we do not allow third-party behavioral tracking.&lt;/p&gt;
+
+&lt;h3 id=&quot;coppa-children-online-privacy-protection-act&quot;&gt;COPPA (Children Online Privacy Protection Act)&lt;/h3&gt;
+
+&lt;p&gt;When it comes to the collection of personal information from children under the age of 13 years old, the Children’s Online Privacy Protection Act (COPPA) puts parents in control. The Federal Trade Commission, United States’ consumer protection agency, enforces the COPPA Rule, which spells out what operators of websites and online services must do to protect children’s privacy and safety online.&lt;/p&gt;
+
+&lt;p&gt;We do not specifically market to children under the age of 13 years old.
+Do we let third-parties, including ad networks or plug-ins collect PII from children under 13?&lt;/p&gt;
+
+&lt;h3 id=&quot;fair-information-practices&quot;&gt;Fair Information Practices&lt;/h3&gt;
+
+&lt;p&gt;The Fair Information Practices Principles form the backbone of privacy law in the United States and the concepts they include have played a significant role in the development of data protection laws around the globe. Understanding the Fair Information Practice Principles and how they should be implemented is critical to comply with the various privacy laws that protect personal information.&lt;/p&gt;
+
+&lt;p&gt;In order to be in line with Fair Information Practices we will take the following responsive action, should a data breach occur:
+We will notify you via email&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;• Within 7 business days
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;We will notify the users via in-site notification&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;• Within 7 business days
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;We also agree to the Individual Redress Principle which requires that individuals have the right to legally pursue enforceable rights against data collectors and processors who fail to adhere to the law. This principle requires not only that individuals have enforceable rights against data users, but also that individuals have recourse to courts or government agencies to investigate and/or prosecute non-compliance by data processors.&lt;/p&gt;
+
+&lt;h3 id=&quot;can-spam-act&quot;&gt;CAN SPAM Act&lt;/h3&gt;
+
+&lt;p&gt;The CAN-SPAM Act is a law that sets the rules for commercial email, establishes requirements for commercial messages, gives recipients the right to have emails stopped from being sent to them, and spells out tough penalties for violations.&lt;/p&gt;
+
+&lt;p&gt;We collect your email address in order to:
+  	• Send information, respond to inquiries, and/or other requests or questions&lt;/p&gt;
+
+&lt;p&gt;To be in accordance with CANSPAM, we agree to the following:
+  	• Not use false or misleading subjects or email addresses.
+  	• Identify the message as an advertisement in some reasonable way.
+  	• Include the physical address of our business or site headquarters.
+  	• Monitor third-party email marketing services for compliance, if one is used.
+  	• Honor opt-out/unsubscribe requests quickly.
+  	• Allow users to unsubscribe by using the link at the bottom of each email.&lt;/p&gt;
+
+&lt;p&gt;If at any time you would like to unsubscribe from receiving future emails, you can email us at
+kathmandulivinglabs@gmail.com and we will promptly remove you from ALL correspondence.&lt;/p&gt;
+
+&lt;h3 id=&quot;contacting-us&quot;&gt;Contacting Us&lt;/h3&gt;
+
+&lt;p&gt;If there are any questions regarding this privacy policy, you may contact us using the information below.&lt;/p&gt;
+
+&lt;p&gt;kathmandulivinglabs.org
+1474 Lamtangin Marga
+Kathmandu, Bagmati 44600
+Nepal
+kathmandulivinglabs@gmail.com&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Last Edited on 2019-08-06&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 16 Aug 2019 14:51:29 +0545</pubDate>
+        <link>http://localhost:4000/tutorials/2019/08/16/ei-privacy-policy/</link>
+        <guid isPermaLink="true">http://localhost:4000/tutorials/2019/08/16/ei-privacy-policy/</guid>
+      </item>
+    
+      <item>
+        <title>Android application development</title>
+        <description>&lt;p&gt;&lt;em&gt;Tutorial on android development for beginners. The documentation includes the fundamental concepts on android programming.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;unit-10-introduction-to-android&quot;&gt;Unit 1.0: Introduction to Android&lt;/h2&gt;
+
+&lt;h2 id=&quot;what-is-android&quot;&gt;What is Android?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;An OS and programming platform developed by google.&lt;/li&gt;
+  &lt;li&gt;Includes SDK(Software Development Kit) to write code and assemble software modules to create
+apps for android users.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;why-develop-apps-for-android-&quot;&gt;Why develop apps for Android ?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Address business Requirement.&lt;/li&gt;
+  &lt;li&gt;Reach the majority of mobile users.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;best-experience-for-app-users&quot;&gt;Best Experience for app users&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Android provides touch interface.&lt;/li&gt;
+  &lt;li&gt;To develop apps using SDK Java programming language is used to develop the app.&lt;/li&gt;
+  &lt;li&gt;Extensible Markup Language(XML) file to describe data resources.&lt;/li&gt;
+  &lt;li&gt;Android Studio: IDE to develop android apps.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/src_5.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Apps: Your apps and core system apps stays at this level.&lt;/li&gt;
+  &lt;li&gt;Java API framework: UI, resource management and lifecycle management. No details of how API’s work is required. Only learn how to use them.&lt;/li&gt;
+  &lt;li&gt;Libraries and runtime: Core system components and services are built from  native libraries written in C or C++. Android services has its own runtime. These native libraries are available to apps through Java API framework.&lt;/li&gt;
+  &lt;li&gt;HAL: Consists of library modules which implements an interface for a specific type of hardware component such as Camera or Bluetooth module.&lt;/li&gt;
+  &lt;li&gt;Linux kernel: Foundation for android. Upper layers rely on Linux kernel for threading, Low level memory management etc.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; &lt;em&gt;Use android support library to use recent android platform API’s on older devices.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;challenges-to-develop-android-app&quot;&gt;Challenges to develop android app:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Design UI elements that work on all devices.&lt;/li&gt;
+  &lt;li&gt;Use ProGuard in Android Studio. ProGuard helps to detect and remove unused classes, fields, attributes, methods etc&lt;/li&gt;
+  &lt;li&gt;Encrypt the code while packaging app.&lt;/li&gt;
+  &lt;li&gt;Remain Compatible with older versions.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;unit-11-develop-first-android-app&quot;&gt;Unit 1.1: Develop first android app&lt;/h2&gt;
+
+&lt;h2 id=&quot;the-development-process&quot;&gt;The development process:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Start with an idea then determine the requirements for the idea.&lt;/li&gt;
+  &lt;li&gt;Sketch UIs for various app functions.&lt;/li&gt;
+  &lt;li&gt;In android studio:
+    &lt;ul&gt;
+      &lt;li&gt;Create Project&lt;/li&gt;
+      &lt;li&gt;Define Layouts&lt;/li&gt;
+      &lt;li&gt;Write Code&lt;/li&gt;
+      &lt;li&gt;Build and Run&lt;/li&gt;
+      &lt;li&gt;Test and debug&lt;/li&gt;
+      &lt;li&gt;Publish&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;steps&quot;&gt;Steps&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Start Android studio project providing an application name. The project name should be same name that you would want for the app. Company domain name should be a unique package name if you want to publish the app in Google Play.&lt;/li&gt;
+  &lt;li&gt;When choosing Target Android Devices, Phone and Tablet are selected by default. The Minimum SDK declares the minimum Android version for your app. Each successive version of Android provides compatibility for apps that were built using the APIs from previous versions. That means your app should always be compatible with future versions of Android, if you use the documented Android APIs.&lt;/li&gt;
+  &lt;li&gt;Select activity template then configure your project&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Gradle is used for build process:
+Build.gradle(Project: apptitle) should not be edited to include app dependencies.
+Build.gradle(Module: app) is used to declare dependencies. This build.gradle exists for every module.&lt;/p&gt;
+
+&lt;p&gt;Layout files include the layouts for activities and Resource files include all necessary resources including layouts, drawable, mipmap and values.&lt;/p&gt;
+
+&lt;h2 id=&quot;unit-12-layout-and-resources-for-ui&quot;&gt;Unit 1.2: Layout and Resources for UI&lt;/h2&gt;
+
+&lt;h3 id=&quot;for-a-button&quot;&gt;For a button&lt;/h3&gt;
+
+&lt;p&gt;Attributes:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Id&lt;/li&gt;
+  &lt;li&gt;Layout width&lt;/li&gt;
+  &lt;li&gt;Layout height&lt;/li&gt;
+  &lt;li&gt;Layout margin end&lt;/li&gt;
+  &lt;li&gt;Layout margin start&lt;/li&gt;
+  &lt;li&gt;Layout margin top&lt;/li&gt;
+  &lt;li&gt;Background&lt;/li&gt;
+  &lt;li&gt;Onclick&lt;/li&gt;
+  &lt;li&gt;Text&lt;/li&gt;
+  &lt;li&gt;Text color&lt;/li&gt;
+  &lt;li&gt;For a text&lt;/li&gt;
+  &lt;li&gt;Text alignment&lt;/li&gt;
+  &lt;li&gt;Text color&lt;/li&gt;
+  &lt;li&gt;Text size&lt;/li&gt;
+  &lt;li&gt;Text style&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Syntax: android:attribute_name = “value”
+	Example: android: textStyle= “bold” 
+If the value is a resource then @symbol is used to determine what kind of resource
+Example: android: background = @color/myBackgroundColor
+To identify a view id is used. Android:id = “@+id/button_count” 
+ Note: “+” symbol is used to indicate new id is created.&lt;/p&gt;
+
+&lt;h2 id=&quot;positioning-a-view&quot;&gt;Positioning a view&lt;/h2&gt;
+
+&lt;h3 id=&quot;linearlayout-positioning&quot;&gt;LinearLayout positioning&lt;/h3&gt;
+
+&lt;p&gt;android: layout_width
+android: layout_height
+android: orientation&lt;/p&gt;
+
+&lt;p&gt;layout_width and layout_height takes either match_parent or wrap_content or a fixed number of dp(density independent pixels) 
+orientation can be horizontal or vertical.
+android: layout_gravity is used to place the UI element with respect to its parent. Example: android: layout_gravity = “center_horizontal”&lt;/p&gt;
+
+&lt;h3 id=&quot;relativelayout-positioning-arrange-child-view-with-respect-to-its-parent&quot;&gt;RelativeLayout positioning: arrange child view with respect to its parent&lt;/h3&gt;
+
+&lt;p&gt;android: layout_toLeftOf: positions right edge of this view to left of another view.
+android: layout_toRightOf: left edge of this view to right of another view.
+android: layout_centerHorizontal: Centers the view horizontally with respect to its parent.
+android: layout_centerVertical: vertically centers w.r.t its parent.
+android: layout_alignParentTop: top edge of this view matches with top edge of parent.
+android: layout_alignParentBottom: bottom edge of this view is matched with bottom edge of the parent.&lt;/p&gt;
+
+&lt;h3 id=&quot;style-related-attributes&quot;&gt;Style related attributes&lt;/h3&gt;
+
+&lt;p&gt;android : textStyle
+android : textSize
+android : background
+android : text
+android : textColor&lt;/p&gt;
+
+&lt;h3 id=&quot;resource-files&quot;&gt;Resource Files&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Stores strings, colors, menu text, styles, layouts, dimensions. It includes:
+    &lt;ul&gt;
+      &lt;li&gt;drawable&lt;/li&gt;
+      &lt;li&gt;layout&lt;/li&gt;
+      &lt;li&gt;menu&lt;/li&gt;
+      &lt;li&gt;mipmap&lt;/li&gt;
+      &lt;li&gt;values&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Syntax to reference a resource in XML file: 
+@package_name: resource_type/resource_name
+If resource is referenced from res then package_name is not required.
+Example: android : text = “@string/button_label_toast”&lt;/p&gt;
+
+&lt;p&gt;Color: colorPrimary is used for app bar is a predefined base color.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-onclick-attribute&quot;&gt;The onClick attribute&lt;/h3&gt;
+
+&lt;p&gt;android: onClick = “showToast” 
+Here showToast() is a method that is to be defined in MainActivity.java. It must be public and return void. Method defines what is to be done when button is clicked.&lt;/p&gt;
+
+&lt;h3 id=&quot;updating-view&quot;&gt;Updating view:&lt;/h3&gt;
+
+&lt;p&gt;mShowCount = (TextView) findViewById(R.id.show_count);
+// when mShowCount is updated TextView is updated.
+android:onClick= “countUp”&lt;/p&gt;
+
+&lt;p&gt;Public void countUp(View view){
+	mCount++;
+	If (mShowCount != null)
+	mShowCount.setText(Integer.toString(mCount));
+}&lt;/p&gt;
+
+&lt;p&gt;Here mCount is converted to string and set string as text for mShowCount object.
+mShowCount.setText() method updates the text view on the screen.&lt;/p&gt;
+
+&lt;h2 id=&quot;unit-13-scrolling-views&quot;&gt;Unit 1.3: Scrolling Views&lt;/h2&gt;
+
+&lt;p&gt;Complex layout with ScrollView will suffer from performance issues. Better not to use images or long list of items. For that Recycler View is preferred.&lt;/p&gt;
+
+&lt;p&gt;When using linear layout inside scroll view. For layout_width use match_parent and for layout_height use wrap_content.
+match_parent //occupies space equal to parent view.
+wrap_content //occupies space only that is required.
+&lt;em&gt;ScrollView supports vertical scrolling. So android:orientation = “vertical”&lt;/em&gt;
+&lt;em&gt;For horizontal scrolling we use HorizontalScrollView&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;unit-14recycler-views&quot;&gt;Unit 1.4:Recycler Views&lt;/h2&gt;
+
+&lt;p&gt;Display large scrollable datasets by maintaining limited number of view items. The RecyclerView keeps as many View items as can fit on the screen, plus a few extra at each end of the list to make sure that scrolling is fast and smooth.&lt;/p&gt;
+
+&lt;h2 id=&quot;to-display-data-in-a-recyclerview-requirements&quot;&gt;To display data in a RecyclerView: requirements&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Data(from database or cloud)&lt;/li&gt;
+  &lt;li&gt;A RecyclerView(scrolling list, container of view items)&lt;/li&gt;
+  &lt;li&gt;Layout for one item of data(all items will look same so same layout can be used. Item layout is separate from activity because one view item at a time can be created and filled with data.)&lt;/li&gt;
+  &lt;li&gt;Layout manager(Organizes layout of the items in RecyclerView. Instance of Recyclerview.LayoutManager)- recycles a view and asks adapter to update contents.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;note:&lt;/strong&gt; &lt;em&gt;For LinearLayout android system handles the layout. But for RecyclerView explicit layout manager is required.&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Adapter(To connect data to RecyclerView. RecyclerView.Adapter extension is used. Prepares data and how it will be presented in a viewholder. When data changes adapter updates the contents of respective list item.)&lt;/li&gt;
+  &lt;li&gt;ViewHolder(extension of RecyclerView.ViewHolder. To contain information for displaying one view item.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Adapter helps two interfaces to work together.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;implementing-a-recyclerview&quot;&gt;Implementing a RecyclerView&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Add the RecyclerView dependency if needed(depending on activity template)&lt;/li&gt;
+  &lt;li&gt;Add RecyclerView to activity layout.&lt;/li&gt;
+  &lt;li&gt;Create a Layout XML file for one View item.&lt;/li&gt;
+  &lt;li&gt;Extend RecyclerView.Adapter and implement onCreateViewHolder() and onBindViewHolder() methods.&lt;/li&gt;
+  &lt;li&gt;Extend RecyclerView.Viewholder to create view holder for item layout. You can add click behaviour by overriding onClick() method.&lt;/li&gt;
+  &lt;li&gt;In the Activity inside onCreate() method create RecyclerView and initialize it with adapter and layout manager.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;steps-1&quot;&gt;Steps:&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;In Build.gradle put support library. 
+ Implementation ‘com.android.support:recyclerview-v7:28.0.0’&lt;/li&gt;
+  &lt;li&gt;Add RecyclerView in XML.&lt;/li&gt;
+  &lt;li&gt;Specify layout manager type in xml or code.&lt;/li&gt;
+  &lt;li&gt;Initialize RecyclerView inside activity or fragment using find view by id method.&lt;/li&gt;
+  &lt;li&gt;Create a layout file for single item in RecyclerView.&lt;/li&gt;
+  &lt;li&gt;Create adapter that describes how data is displayed inside each item.&lt;/li&gt;
+  &lt;li&gt;Data source (database/Xml/JSON/Array list)&lt;/li&gt;
+  &lt;li&gt;Number of items.&lt;/li&gt;
+  &lt;li&gt;Use onCreateViewHolder to link adapter with layout from 4.&lt;/li&gt;
+  &lt;li&gt;Use the onBindViewHolder to show data inside adapter for each position.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;unit-21--activities-and-intents&quot;&gt;Unit 2.1 : Activities and Intents&lt;/h2&gt;
+
+&lt;p&gt;Application is a collection of activities created or that you reuse from other apps.
+Activities are independent of each other.&lt;/p&gt;
+
+&lt;p&gt;The main activity is the first activity that is seen when users launch an app. Each time a new activity starts, previous activity is stopped. But the system preserves activity in a stack (back stack). When the user presses the back button the activity is popped from the stack and is destroyed. Then the previous activity resumes.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Creating an activity&lt;/li&gt;
+  &lt;li&gt;Creating an activity java class&lt;/li&gt;
+  &lt;li&gt;Implement basic UI for Activity in XML layout file.&lt;/li&gt;
+  &lt;li&gt;Declare the new activity in android manifest.xml file.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;While creating a new project or adding a new activity by choosing File &amp;gt; New &amp;gt; Activity, template automatically performs above steps.&lt;/p&gt;
+
+&lt;h3 id=&quot;create-an-activity&quot;&gt;Create an activity&lt;/h3&gt;
+
+&lt;p&gt;When we create a new project in Android Studio and choose backward compatibility(AppCompat), Main Activity will be by default a subclass of AppCompatActivity class. The AppCompatActivity class will help you to use up-to-date android features(app bar and Material Design). It also makes it compatible with devices having older versions of Android.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Activity Life Cycle:&lt;/strong&gt; 
+The set of states an activity can be in: when it is first created, when it is stopped or resumed and when a system destroys it.&lt;/p&gt;
+
+&lt;p&gt;The first task in activity subclass is to implement standard Activity lifecycle callback methods to handle state changes for your activity. For example onCreate() method.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;onCreate()&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;required method the app must implement.&lt;/li&gt;
+  &lt;li&gt;All essential components of your activity is initialized here.&lt;/li&gt;
+  &lt;li&gt;System calls this method when it creates the activity.&lt;/li&gt;
+  &lt;li&gt;It calls setContentView() to create primary layout for the activity.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In more than one XML layout files, UI for the activity is defined.
+When the setContentView() method is called with path to the layout file, the system creates all initial views from specified layout and adds them to the activity. =&amp;gt; inflating the layout.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;onPause()&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Is called when user is leaving the activity&lt;/li&gt;
+  &lt;li&gt;Doesn’t mean activity is destroyed.&lt;/li&gt;
+  &lt;li&gt;Commit the changes done before.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;implement-activitys-ui-in-the-layout-file--xml-file&quot;&gt;Implement activity’s UI in the layout file =&amp;gt; XML file.&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;AndroidManifest.xml file&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Activity is declared here.
+While creating new activity or starting a project activity is declared.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;application&gt; 
+&lt;activity&gt; //attributes are defined like name, label, icon, theme. Required is only android:name. 
+
+For example: 
+&amp;lt;activity android:name = “MainActivity”&amp;gt; 
+&lt;intent-filter&gt;// defines the kind of intent accepted by the activity.
+// intent filter can include action, category and sometimes data element. Action defines Main action and category defines launcher which helps to launch the app.
+&amp;lt;action android:name = ‘android.intent.action.Main’/&amp;gt; // specifies this activity is the main entry point to app.
+&amp;lt;category android:name = ‘android.intent.category.Launcher’/&amp;gt; //this activity should be in system’s app launcher.
+&lt;/intent-filter&gt;
+&lt;/activity&gt;
+&lt;/application&gt;
+
+&lt;p&gt;&lt;strong&gt;Intent:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Message object that sends request to android runtime to start an activity.&lt;/li&gt;
+  &lt;li&gt;Also used to pass data between one activity and another.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;types&quot;&gt;Types:&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Explicit:&lt;/strong&gt; 
+Used to call a specific component. Suppose activity B is launched from activity A. then explicit intent is used to call directly targeting activity B. explicit intent is always delivered to the target, not consulting filters.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Implicit:&lt;/strong&gt; 
+You know what is to be done. But don’t know which activity is to be launched. Or, user has option to choose between various components. Implicit intent is delivered to a component only if it can pass through one of the component’s filters.&lt;/p&gt;
+
+&lt;h2 id=&quot;unit-22-activity-lifecycle-and-state&quot;&gt;Unit 2.2: Activity lifecycle and state&lt;/h2&gt;
+
+&lt;p&gt;Activity lifecycle: set of states an activity can be in during its entire lifetime, from the time it is created to it is destroyed.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/activityLifeCycle.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Activity state and lifecycle callback methods :&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/Callbackstate.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;unit-3-retrofit&quot;&gt;Unit 3: Retrofit:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Retrofit is REST client for JAVA and android.&lt;/li&gt;
+  &lt;li&gt;3 things to integrate retrofit to android application:
+    &lt;ol&gt;
+      &lt;li&gt;Retrofit library&lt;/li&gt;
+      &lt;li&gt;Interface with network calling method.&lt;/li&gt;
+      &lt;li&gt;POJO class to get data from server.&lt;/li&gt;
+      &lt;li&gt;Add retrofit dependency.&lt;/li&gt;
+      &lt;li&gt;Describe endpoint API.&lt;/li&gt;
+      &lt;li&gt;JSON mapping.&lt;/li&gt;
+      &lt;li&gt;Creating Retrofit client and executing our requests.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Dependencies:&lt;/strong&gt;
+Implementation ‘com.squareup.retrofit2:retrofit:2.1.0’
+Implementation ‘com.squareup.retrofit2:converter-gson:2.1.0’&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Android-Manifest.XML:&lt;/strong&gt;
+&amp;lt;uses-permission android:name= “android.permission.INTERNET” /&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;API description:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;To send an HTTP request HTTP methods are used. HTTP methods include GET, PUT, POST, DELETE etc.&lt;/li&gt;
+  &lt;li&gt;To understand how these methods work, it is important to know about URI, URL, URN.
+    &lt;ul&gt;
+      &lt;li&gt;URI: (Uniform Resource Identifier) It is a string of characters used to identify resources on a computer network using either location, name or both.&lt;/li&gt;
+      &lt;li&gt;URL: (Uniform Resource Locator) identify resource on the basis of location.&lt;/li&gt;
+      &lt;li&gt;URN: (Uniform Resource Name) identify resource on the basis of name.&lt;/li&gt;
+      &lt;li&gt;URL is more specifically preferred than URN.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Difference between GET and POST method:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Transfer data from client to server in HTTP.&lt;/p&gt;
+
+&lt;p&gt;GET: data is sent as URL parameters.
+@GET(“users/list”)&lt;/p&gt;
+
+&lt;p&gt;Describing query parameters in URL:
+@GET(“users/list?sort=desc”)&lt;/p&gt;
+
+&lt;p&gt;URL Manipulation:
+@GET(“group/{id}/users”)&lt;/p&gt;
+
+&lt;h4 id=&quot;reference&quot;&gt;Reference:&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://google-developer-training.github.io/android-developer-fundamentals-course-concepts-v2/&quot;&gt;Android Developer Fundamental Course Concepts-V2&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 15 Jul 2019 14:51:29 +0545</pubDate>
+        <link>http://localhost:4000/tutorials/2019/07/15/basics-of-android-development/</link>
+        <guid isPermaLink="true">http://localhost:4000/tutorials/2019/07/15/basics-of-android-development/</guid>
+      </item>
+    
+      <item>
+        <title>Making cities pop!</title>
+        <description>&lt;p&gt;&lt;em&gt;A small tutorial that explains how you can clip map tile layers based on an external GeoJSON boundary in Leaflet.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;When designing maps for our projects here at KLL, a very common request that we receive in the early stages of development of any map-based app, is to make the geographical area that is the focus of the project stand out.&lt;/p&gt;
+
+&lt;p&gt;In this post, I am going to walk you through a series of steps that will allow you to clip the standard OSM tilelayer based on a geographic boundary.&lt;/p&gt;
+
+&lt;h3 id=&quot;so-what-are-we-doing-again&quot;&gt;So what are we doing again?&lt;/h3&gt;
+
+&lt;p&gt;Here is an image that showcases what we are trying to achieve by the end of this tutorial.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/scr_4.png&quot; alt=&quot;&quot; /&gt;
+&lt;em&gt;Notice how areas outside the city has a reduced opacity, allowing us to draw the user’s attention to all of the content inside the boundary.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;before-we-begin&quot;&gt;Before we begin&lt;/h3&gt;
+
+&lt;p&gt;This tutorial assumes a basic understanding of &lt;a href=&quot;http://leafletjs.com/&quot;&gt;LeafletJS&lt;/a&gt; and its API. If you are not familiar with this framework, I urge you to go through its &lt;a href=&quot;http://leafletjs.com/examples.html&quot;&gt;well curated collection of  tutorials&lt;/a&gt; and &lt;a href=&quot;http://leafletjs.com/reference-1.3.0.html&quot;&gt;API reference documentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I have also uploaded all of the resources used for this tutorial in the form of a github gist. You can view the code &lt;a href=&quot;http://bl.ocks.org/arkoblog/1a0b65bd62686bab0d8a7ccca26be998&quot;&gt;in this github gist.&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-1-wiring-up-a-basic-map&quot;&gt;Step 1: Wiring up a basic map&lt;/h3&gt;
+
+&lt;p&gt;Let’s start by quickly wiring up a basic leaflet map for our use. For this, we will be following the same procedure as outlined in Leaflet’s official &lt;a href=&quot;http://leafletjs.com/examples/quick-start/&quot;&gt;quick start guide&lt;/a&gt;, with the following differences:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The bounding box and the zoom level will be set to around that of Neelakantha municipality.&lt;/li&gt;
+  &lt;li&gt;The tilelayer that we will be using will be different to the one provided in the guide.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;en&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;dir=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ltr&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;utf-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Loading leaflet JS styles and JS --&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://unpkg.com/leaflet@1.3.1/dist/leaflet.css&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;integrity=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;crossorigin=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://unpkg.com/leaflet@1.3.1/dist/leaflet.js&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;integrity=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw==&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;crossorigin=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- End loading Leaflet JS --&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Making Cities Pop - Final Output&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Create a div where the map will reside --&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;my-map&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;style=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;height:400px;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
+
+          &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;mymap&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;L&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'my-map'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;setView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;27.89512&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;85.1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;11&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Before we proceed, here’s a screenshot of what the output currently looks like:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/scr_1.png&quot; alt=&quot;&quot; /&gt;
+As you may have noticed, not much has happened so far.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-2-adding-the-base-tile-layer&quot;&gt;Step 2: Adding the base tile layer&lt;/h3&gt;
+
+&lt;p&gt;Inside the script tag, we now create a new tile layer and add it to the map as follows.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;...
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;mymap&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;L&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'my-map'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;setView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;27.89512&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;85.1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;11&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;osmURL&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;baseTileLayer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;L&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;tileLayer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;osmURL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;opacity&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.2&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;baseTileLayer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addTo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;mymap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+
+...&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Notice how I’ve set the opacity of &lt;code class=&quot;highlighter-rouge&quot;&gt;baseTileLayer&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;0.2&lt;/code&gt;. Here’s what the output looks like now:
+&lt;img src=&quot;http://localhost:4000/assets/img/scr_2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-3-loading-the-external-geojson-boundary&quot;&gt;Step 3: Loading the external GeoJSON boundary.&lt;/h3&gt;
+
+&lt;p&gt;The next step involves making the GeoJSON boundary file available for use within our &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt;. For this we will have to make use of the &lt;code class=&quot;highlighter-rouge&quot;&gt;$.ajax()&lt;/code&gt; method available in jQuery. To do so, we first load jQuery as an external dependency onto the head section of our document, like so:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;...
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+  ...
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://code.jquery.com/jquery-2.2.4.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+  ...
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+...&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;After this, we can now access the GeoJSON as follows:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;...
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;mymap&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;L&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'my-map'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;setView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;27.89512&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;85.1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;11&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;osmURL&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;baseTileLayer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;L&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;tileLayer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;osmURL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;opacity&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.4&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;baseTileLayer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addTo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;mymap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+
+  &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ajax&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;mimeType&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'application/json'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'boundary.geojson'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;done&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+
+...&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;step-4-making-it-pop&quot;&gt;Step 4: Making it pop!&lt;/h3&gt;
+
+&lt;p&gt;The final step involves adding one more tilelayer onto the original map. However, in this case, the tile layer will only be visible inside the boundary. This is achieved my making use of an external leaflet plugin called ‘BoundaryCanvas’, which allows us to draw tiled raster layers with an arbitrary boundary (in our case, &lt;code class=&quot;highlighter-rouge&quot;&gt;boundary.geojson&lt;/code&gt;). You can learn more about its capabilities &lt;a href=&quot;https://github.com/aparshin/leaflet-boundary-canvas&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We begin by loading the boundary canvas script within the head section of &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;...
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+  ...
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://unpkg.com/leaflet-boundary-canvas@1.0.0/src/BoundaryCanvas.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+  ...
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+...&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Finally, we add the additional tile layer inside the &lt;code class=&quot;highlighter-rouge&quot;&gt;$.ajax()&lt;/code&gt; call as follows:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;...
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;mymap&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;L&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'my-map'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;setView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;27.89512&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;85.1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;11&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;osmURL&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;baseTileLayer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;L&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;tileLayer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;osmURL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;opacity&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.2&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;baseTileLayer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addTo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;mymap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+  &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ajax&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;mimeType&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'application/json'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'boundary.geojson'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;done&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;test&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;L&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;TileLayer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;boundaryCanvas&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;boundary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addTo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;mymap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+
+...&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;If all goes well, here’s what you will see:
+&lt;img src=&quot;http://localhost:4000/assets/img/scr_3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To make the municipality stand out a little more, let’s modify the leaflet container’s background color. To do this, let’s add a style tag inside the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt; section of &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;...
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+  ...
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
+     &lt;span class=&quot;nc&quot;&gt;.leaflet-container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+       &lt;span class=&quot;nl&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+     &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
+  ...
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+...&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;In the end, this is what we should have:
+&lt;img src=&quot;http://localhost:4000/assets/img/scr_4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cheers,
+Arogya&lt;/p&gt;
+</description>
+        <pubDate>Wed, 18 Apr 2018 14:51:29 +0545</pubDate>
+        <link>http://localhost:4000/tutorials/2018/04/18/making-boundaries-pop/</link>
+        <guid isPermaLink="true">http://localhost:4000/tutorials/2018/04/18/making-boundaries-pop/</guid>
+      </item>
+    
+      <item>
+        <title>KLL now has a tech blog.</title>
+        <description>&lt;p&gt;The following is a recurring topic of discussion amongst all of us coders here at KLL:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Are we doing enough to share our learnings with the community?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This blog is an effort in that direction. We feel that just the simple act of practicing writing about our work, will help steer us to this goal.&lt;/p&gt;
+
+&lt;p&gt;We will be covering topics such as our choices, our challenges, our learnings and a lot more.&lt;/p&gt;
 </description>
         <pubDate>Wed, 18 Apr 2018 14:51:29 +0545</pubDate>
         <link>http://localhost:4000/alerts/2018/04/18/up-and-running/</link>
