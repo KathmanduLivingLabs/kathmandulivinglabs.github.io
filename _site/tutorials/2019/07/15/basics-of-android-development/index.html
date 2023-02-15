@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Android application development &#8211; Tech@KLL.</title>
+    <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Tutorial on android development for beginners.">
+    <meta name="robots" content="all">
+    <meta name="author" content="kll">
+    
+    <meta name="keywords" content="tutorials">
+    <link rel="canonical" href="http://localhost:4000/tutorials/2019/07/15/basics-of-android-development/">
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed for Tech@KLL." href="/feed.xml" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/pixyll.css?202302151127" type="text/css">
+
+    <!-- Fonts -->
+    
+    <link href='//fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Lato:900,300' rel='stylesheet' type='text/css'>
+    
+    
+
+    <!-- MathJax -->
+    
+
+    <!-- Verifications -->
+    
+    
+
+    <!-- Open Graph -->
+    <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Android application development">
+    <meta property="og:description" content="We wanted to talk about what we do here at the KLL tech room, so we hacked up a nifty little blog using Jekyll.">
+    <meta property="og:url" content="http://localhost:4000/tutorials/2019/07/15/basics-of-android-development/">
+    <meta property="og:site_name" content="Tech@KLL.">
+    
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    
+    <meta name="twitter:title" content="Android application development" />
+    <meta name="twitter:description" content="Tutorial on android development for beginners." />
+    <meta name="twitter:url" content="http://localhost:4000/tutorials/2019/07/15/basics-of-android-development/" />
+    
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/favicon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+
+    
+</head>
+
+<body class="site">
+  
+	
+
+  <div class="site-wrap">
+    <header class="site-header px2 px-responsive">
+  <div class="mt2 wrap">
+    <div class="measure">
+      <a href="http://localhost:4000" class="site-title">Tech@KLL.</a>
+      <nav class="site-nav">
+        
+
+
+
+    
+    
+    
+    
+        <a href="/contributors/">Contributors</a>
+    
+
+    
+
+
+      </nav>
+      <div class="clearfix"></div>
+      
+    </div>
+  </div>
+</header>
+
+
+    <div class="post p2 p-responsive wrap" role="main">
+      <div class="measure">
+        
+
+
+<div class="post-header mb2">
+  <h1>Android application development</h1>
+  <span class="post-meta">Jul 15, 2019</span><br>
+  
+  <span class="post-meta small">
+  
+    11 minute read
+  
+  </span>
+</div>
+
+<article class="post-content">
+  <p><em>Tutorial on android development for beginners. The documentation includes the fundamental concepts on android programming.</em></p>
+
+<h2 id="unit-10-introduction-to-android">Unit 1.0: Introduction to Android</h2>
+
+<h2 id="what-is-android">What is Android?</h2>
+
+<ul>
+  <li>An OS and programming platform developed by google.</li>
+  <li>Includes SDK(Software Development Kit) to write code and assemble software modules to create
+apps for android users.</li>
+</ul>
+
+<h2 id="why-develop-apps-for-android-">Why develop apps for Android ?</h2>
+
+<ul>
+  <li>Address business Requirement.</li>
+  <li>Reach the majority of mobile users.</li>
+</ul>
+
+<h2 id="best-experience-for-app-users">Best Experience for app users</h2>
+
+<ul>
+  <li>Android provides touch interface.</li>
+  <li>To develop apps using SDK Java programming language is used to develop the app.</li>
+  <li>Extensible Markup Language(XML) file to describe data resources.</li>
+  <li>Android Studio: IDE to develop android apps.</li>
+</ul>
+
+<p><img src="http://localhost:4000/assets/img/src_5.png" alt="" /></p>
+
+<ol>
+  <li>Apps: Your apps and core system apps stays at this level.</li>
+  <li>Java API framework: UI, resource management and lifecycle management. No details of how API’s work is required. Only learn how to use them.</li>
+  <li>Libraries and runtime: Core system components and services are built from  native libraries written in C or C++. Android services has its own runtime. These native libraries are available to apps through Java API framework.</li>
+  <li>HAL: Consists of library modules which implements an interface for a specific type of hardware component such as Camera or Bluetooth module.</li>
+  <li>Linux kernel: Foundation for android. Upper layers rely on Linux kernel for threading, Low level memory management etc.</li>
+</ol>
+
+<p><strong>Note:</strong> <em>Use android support library to use recent android platform API’s on older devices.</em></p>
+
+<h2 id="challenges-to-develop-android-app">Challenges to develop android app:</h2>
+
+<ul>
+  <li>Design UI elements that work on all devices.</li>
+  <li>Use ProGuard in Android Studio. ProGuard helps to detect and remove unused classes, fields, attributes, methods etc</li>
+  <li>Encrypt the code while packaging app.</li>
+  <li>Remain Compatible with older versions.</li>
+</ul>
+
+<h2 id="unit-11-develop-first-android-app">Unit 1.1: Develop first android app</h2>
+
+<h2 id="the-development-process">The development process:</h2>
+
+<ul>
+  <li>Start with an idea then determine the requirements for the idea.</li>
+  <li>Sketch UIs for various app functions.</li>
+  <li>In android studio:
+    <ul>
+      <li>Create Project</li>
+      <li>Define Layouts</li>
+      <li>Write Code</li>
+      <li>Build and Run</li>
+      <li>Test and debug</li>
+      <li>Publish</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="steps">Steps</h3>
+
+<ol>
+  <li>Start Android studio project providing an application name. The project name should be same name that you would want for the app. Company domain name should be a unique package name if you want to publish the app in Google Play.</li>
+  <li>When choosing Target Android Devices, Phone and Tablet are selected by default. The Minimum SDK declares the minimum Android version for your app. Each successive version of Android provides compatibility for apps that were built using the APIs from previous versions. That means your app should always be compatible with future versions of Android, if you use the documented Android APIs.</li>
+  <li>Select activity template then configure your project</li>
+</ol>
+
+<p>Gradle is used for build process:
+Build.gradle(Project: apptitle) should not be edited to include app dependencies.
+Build.gradle(Module: app) is used to declare dependencies. This build.gradle exists for every module.</p>
+
+<p>Layout files include the layouts for activities and Resource files include all necessary resources including layouts, drawable, mipmap and values.</p>
+
+<h2 id="unit-12-layout-and-resources-for-ui">Unit 1.2: Layout and Resources for UI</h2>
+
+<h3 id="for-a-button">For a button</h3>
+
+<p>Attributes:</p>
+<ul>
+  <li>Id</li>
+  <li>Layout width</li>
+  <li>Layout height</li>
+  <li>Layout margin end</li>
+  <li>Layout margin start</li>
+  <li>Layout margin top</li>
+  <li>Background</li>
+  <li>Onclick</li>
+  <li>Text</li>
+  <li>Text color</li>
+  <li>For a text</li>
+  <li>Text alignment</li>
+  <li>Text color</li>
+  <li>Text size</li>
+  <li>Text style</li>
+</ul>
+
+<p>Syntax: android:attribute_name = “value”
+	Example: android: textStyle= “bold” 
+If the value is a resource then @symbol is used to determine what kind of resource
+Example: android: background = @color/myBackgroundColor
+To identify a view id is used. Android:id = “@+id/button_count” 
+ Note: “+” symbol is used to indicate new id is created.</p>
+
+<h2 id="positioning-a-view">Positioning a view</h2>
+
+<h3 id="linearlayout-positioning">LinearLayout positioning</h3>
+
+<p>android: layout_width
+android: layout_height
+android: orientation</p>
+
+<p>layout_width and layout_height takes either match_parent or wrap_content or a fixed number of dp(density independent pixels) 
+orientation can be horizontal or vertical.
+android: layout_gravity is used to place the UI element with respect to its parent. Example: android: layout_gravity = “center_horizontal”</p>
+
+<h3 id="relativelayout-positioning-arrange-child-view-with-respect-to-its-parent">RelativeLayout positioning: arrange child view with respect to its parent</h3>
+
+<p>android: layout_toLeftOf: positions right edge of this view to left of another view.
+android: layout_toRightOf: left edge of this view to right of another view.
+android: layout_centerHorizontal: Centers the view horizontally with respect to its parent.
+android: layout_centerVertical: vertically centers w.r.t its parent.
+android: layout_alignParentTop: top edge of this view matches with top edge of parent.
+android: layout_alignParentBottom: bottom edge of this view is matched with bottom edge of the parent.</p>
+
+<h3 id="style-related-attributes">Style related attributes</h3>
+
+<p>android : textStyle
+android : textSize
+android : background
+android : text
+android : textColor</p>
+
+<h3 id="resource-files">Resource Files</h3>
+<ul>
+  <li>Stores strings, colors, menu text, styles, layouts, dimensions. It includes:
+    <ul>
+      <li>drawable</li>
+      <li>layout</li>
+      <li>menu</li>
+      <li>mipmap</li>
+      <li>values</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Syntax to reference a resource in XML file: 
+@package_name: resource_type/resource_name
+If resource is referenced from res then package_name is not required.
+Example: android : text = “@string/button_label_toast”</p>
+
+<p>Color: colorPrimary is used for app bar is a predefined base color.</p>
+
+<h3 id="the-onclick-attribute">The onClick attribute</h3>
+
+<p>android: onClick = “showToast” 
+Here showToast() is a method that is to be defined in MainActivity.java. It must be public and return void. Method defines what is to be done when button is clicked.</p>
+
+<h3 id="updating-view">Updating view:</h3>
+
+<p>mShowCount = (TextView) findViewById(R.id.show_count);
+// when mShowCount is updated TextView is updated.
+android:onClick= “countUp”</p>
+
+<p>Public void countUp(View view){
+	mCount++;
+	If (mShowCount != null)
+	mShowCount.setText(Integer.toString(mCount));
+}</p>
+
+<p>Here mCount is converted to string and set string as text for mShowCount object.
+mShowCount.setText() method updates the text view on the screen.</p>
+
+<h2 id="unit-13-scrolling-views">Unit 1.3: Scrolling Views</h2>
+
+<p>Complex layout with ScrollView will suffer from performance issues. Better not to use images or long list of items. For that Recycler View is preferred.</p>
+
+<p>When using linear layout inside scroll view. For layout_width use match_parent and for layout_height use wrap_content.
+match_parent //occupies space equal to parent view.
+wrap_content //occupies space only that is required.
+<em>ScrollView supports vertical scrolling. So android:orientation = “vertical”</em>
+<em>For horizontal scrolling we use HorizontalScrollView</em></p>
+
+<h2 id="unit-14recycler-views">Unit 1.4:Recycler Views</h2>
+
+<p>Display large scrollable datasets by maintaining limited number of view items. The RecyclerView keeps as many View items as can fit on the screen, plus a few extra at each end of the list to make sure that scrolling is fast and smooth.</p>
+
+<h2 id="to-display-data-in-a-recyclerview-requirements">To display data in a RecyclerView: requirements</h2>
+
+<ul>
+  <li>Data(from database or cloud)</li>
+  <li>A RecyclerView(scrolling list, container of view items)</li>
+  <li>Layout for one item of data(all items will look same so same layout can be used. Item layout is separate from activity because one view item at a time can be created and filled with data.)</li>
+  <li>Layout manager(Organizes layout of the items in RecyclerView. Instance of Recyclerview.LayoutManager)- recycles a view and asks adapter to update contents.</li>
+</ul>
+
+<p><strong>note:</strong> <em>For LinearLayout android system handles the layout. But for RecyclerView explicit layout manager is required.</em></p>
+<ul>
+  <li>Adapter(To connect data to RecyclerView. RecyclerView.Adapter extension is used. Prepares data and how it will be presented in a viewholder. When data changes adapter updates the contents of respective list item.)</li>
+  <li>ViewHolder(extension of RecyclerView.ViewHolder. To contain information for displaying one view item.)</li>
+</ul>
+
+<p><em>Adapter helps two interfaces to work together.</em></p>
+
+<h2 id="implementing-a-recyclerview">Implementing a RecyclerView</h2>
+
+<ul>
+  <li>Add the RecyclerView dependency if needed(depending on activity template)</li>
+  <li>Add RecyclerView to activity layout.</li>
+  <li>Create a Layout XML file for one View item.</li>
+  <li>Extend RecyclerView.Adapter and implement onCreateViewHolder() and onBindViewHolder() methods.</li>
+  <li>Extend RecyclerView.Viewholder to create view holder for item layout. You can add click behaviour by overriding onClick() method.</li>
+  <li>In the Activity inside onCreate() method create RecyclerView and initialize it with adapter and layout manager.</li>
+</ul>
+
+<h3 id="steps-1">Steps:</h3>
+<ol>
+  <li>In Build.gradle put support library. 
+ Implementation ‘com.android.support:recyclerview-v7:28.0.0’</li>
+  <li>Add RecyclerView in XML.</li>
+  <li>Specify layout manager type in xml or code.</li>
+  <li>Initialize RecyclerView inside activity or fragment using find view by id method.</li>
+  <li>Create a layout file for single item in RecyclerView.</li>
+  <li>Create adapter that describes how data is displayed inside each item.</li>
+  <li>Data source (database/Xml/JSON/Array list)</li>
+  <li>Number of items.</li>
+  <li>Use onCreateViewHolder to link adapter with layout from 4.</li>
+  <li>Use the onBindViewHolder to show data inside adapter for each position.</li>
+</ol>
+
+<h2 id="unit-21--activities-and-intents">Unit 2.1 : Activities and Intents</h2>
+
+<p>Application is a collection of activities created or that you reuse from other apps.
+Activities are independent of each other.</p>
+
+<p>The main activity is the first activity that is seen when users launch an app. Each time a new activity starts, previous activity is stopped. But the system preserves activity in a stack (back stack). When the user presses the back button the activity is popped from the stack and is destroyed. Then the previous activity resumes.</p>
+
+<ul>
+  <li>Creating an activity</li>
+  <li>Creating an activity java class</li>
+  <li>Implement basic UI for Activity in XML layout file.</li>
+  <li>Declare the new activity in android manifest.xml file.</li>
+</ul>
+
+<p>While creating a new project or adding a new activity by choosing File &gt; New &gt; Activity, template automatically performs above steps.</p>
+
+<h3 id="create-an-activity">Create an activity</h3>
+
+<p>When we create a new project in Android Studio and choose backward compatibility(AppCompat), Main Activity will be by default a subclass of AppCompatActivity class. The AppCompatActivity class will help you to use up-to-date android features(app bar and Material Design). It also makes it compatible with devices having older versions of Android.</p>
+
+<p><strong>Activity Life Cycle:</strong> 
+The set of states an activity can be in: when it is first created, when it is stopped or resumed and when a system destroys it.</p>
+
+<p>The first task in activity subclass is to implement standard Activity lifecycle callback methods to handle state changes for your activity. For example onCreate() method.</p>
+
+<p><strong>onCreate()</strong></p>
+<ul>
+  <li>required method the app must implement.</li>
+  <li>All essential components of your activity is initialized here.</li>
+  <li>System calls this method when it creates the activity.</li>
+  <li>It calls setContentView() to create primary layout for the activity.</li>
+</ul>
+
+<p>In more than one XML layout files, UI for the activity is defined.
+When the setContentView() method is called with path to the layout file, the system creates all initial views from specified layout and adds them to the activity. =&gt; inflating the layout.</p>
+
+<p><strong>onPause()</strong></p>
+<ul>
+  <li>Is called when user is leaving the activity</li>
+  <li>Doesn’t mean activity is destroyed.</li>
+  <li>Commit the changes done before.</li>
+</ul>
+
+<h3 id="implement-activitys-ui-in-the-layout-file--xml-file">Implement activity’s UI in the layout file =&gt; XML file.</h3>
+
+<p><strong>AndroidManifest.xml file</strong></p>
+
+<ul>
+  <li>Activity is declared here.
+While creating new activity or starting a project activity is declared.</li>
+</ul>
+
+<application> 
+<activity> //attributes are defined like name, label, icon, theme. Required is only android:name. 
+
+For example: 
+&lt;activity android:name = “MainActivity”&gt; 
+<intent-filter>// defines the kind of intent accepted by the activity.
+// intent filter can include action, category and sometimes data element. Action defines Main action and category defines launcher which helps to launch the app.
+&lt;action android:name = ‘android.intent.action.Main’/&gt; // specifies this activity is the main entry point to app.
+&lt;category android:name = ‘android.intent.category.Launcher’/&gt; //this activity should be in system’s app launcher.
+</intent-filter>
+</activity>
+</application>
+
+<p><strong>Intent:</strong></p>
+
+<ul>
+  <li>Message object that sends request to android runtime to start an activity.</li>
+  <li>Also used to pass data between one activity and another.</li>
+</ul>
+
+<h3 id="types">Types:</h3>
+
+<p><strong>Explicit:</strong> 
+Used to call a specific component. Suppose activity B is launched from activity A. then explicit intent is used to call directly targeting activity B. explicit intent is always delivered to the target, not consulting filters.</p>
+
+<p><strong>Implicit:</strong> 
+You know what is to be done. But don’t know which activity is to be launched. Or, user has option to choose between various components. Implicit intent is delivered to a component only if it can pass through one of the component’s filters.</p>
+
+<h2 id="unit-22-activity-lifecycle-and-state">Unit 2.2: Activity lifecycle and state</h2>
+
+<p>Activity lifecycle: set of states an activity can be in during its entire lifetime, from the time it is created to it is destroyed.</p>
+
+<p><img src="http://localhost:4000/assets/img/activityLifeCycle.png" alt="" /></p>
+
+<p><strong>Activity state and lifecycle callback methods :</strong></p>
+
+<p><img src="http://localhost:4000/assets/img/Callbackstate.png" alt="" /></p>
+
+<h2 id="unit-3-retrofit">Unit 3: Retrofit:</h2>
+
+<ul>
+  <li>Retrofit is REST client for JAVA and android.</li>
+  <li>3 things to integrate retrofit to android application:
+    <ol>
+      <li>Retrofit library</li>
+      <li>Interface with network calling method.</li>
+      <li>POJO class to get data from server.</li>
+      <li>Add retrofit dependency.</li>
+      <li>Describe endpoint API.</li>
+      <li>JSON mapping.</li>
+      <li>Creating Retrofit client and executing our requests.</li>
+    </ol>
+  </li>
+</ul>
+
+<p><strong>Dependencies:</strong>
+Implementation ‘com.squareup.retrofit2:retrofit:2.1.0’
+Implementation ‘com.squareup.retrofit2:converter-gson:2.1.0’</p>
+
+<p><strong>Android-Manifest.XML:</strong>
+&lt;uses-permission android:name= “android.permission.INTERNET” /&gt;</p>
+
+<p><strong>API description:</strong></p>
+<ul>
+  <li>To send an HTTP request HTTP methods are used. HTTP methods include GET, PUT, POST, DELETE etc.</li>
+  <li>To understand how these methods work, it is important to know about URI, URL, URN.
+    <ul>
+      <li>URI: (Uniform Resource Identifier) It is a string of characters used to identify resources on a computer network using either location, name or both.</li>
+      <li>URL: (Uniform Resource Locator) identify resource on the basis of location.</li>
+      <li>URN: (Uniform Resource Name) identify resource on the basis of name.</li>
+      <li>URL is more specifically preferred than URN.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Difference between GET and POST method:</strong></p>
+
+<p>Transfer data from client to server in HTTP.</p>
+
+<p>GET: data is sent as URL parameters.
+@GET(“users/list”)</p>
+
+<p>Describing query parameters in URL:
+@GET(“users/list?sort=desc”)</p>
+
+<p>URL Manipulation:
+@GET(“group/{id}/users”)</p>
+
+<h4 id="reference">Reference:</h4>
+
+<p><a href="https://google-developer-training.github.io/android-developer-fundamentals-course-concepts-v2/">Android Developer Fundamental Course Concepts-V2</a></p>
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="center">
+  <div class="measure">
+    <small>
+      <a href="http://www.kathmandulivinglabs.org">Kathmandu Living Labs</a> is a civic-tech company based out of Nepal.
+    </small>
+  </div>
+</footer>
+
+
+</body>
+</html>

@@ -1,9 +1,9 @@
 ---
-layout:     post
-title:      Explore Pokhara Privacy Policy
-date:       2023-02-15 09:06:29
-summary:    This privacy policy has been compiled to better serve those who are concerned with how their 'Personally Identifiable Information'..
-categories: tutorials
+layout: post
+title: Explore Pokhara Privacy Policy
+date: 2023-02-14 13:54:00
+summary: This privacy policy has been compiled to better serve those who are concerned with how their 'Personally Identifiable Information'..
+categories: privacypolicy
 ---
 
 ## Explore Pokhara Mobile Application Privacy Policy
@@ -22,7 +22,6 @@ You can choose to have your computer warn you each time a cookie is being sent, 
 
 If you turn cookies off, Some of the features that make your site experience more efficient may not function properly.that make your site experience more efficient and may not function properly.
 
-
 ### Third-party disclosure
 
 We do not sell, trade, or otherwise transfer to outside parties your Personally Identifiable Information.
@@ -40,7 +39,7 @@ We use Google Analytics on our website.
 Google, as a third-party vendor, uses cookies on our site. Google's use of the DART cookie. Users may opt-out of the use of the DART cookie by visiting the Google Ad and Content Network privacy policy.
 
 We have implemented the following:
-  	• Demographics and Interests Reporting
+• Demographics and Interests Reporting
 
 We, along with third-party vendors such as Google use first-party cookies (such as the Google Analytics cookies) and third-party cookies (such as the DoubleClick cookie) or other third-party identifiers together
 Look at user interaction and improve the app and website
@@ -59,16 +58,17 @@ Once this privacy policy is created, we will add a link to it on our home page o
 Our Privacy Policy link includes the word 'Privacy' and can easily be found on the page specified above.
 
 You will be notified of any Privacy Policy changes:
-  	
-    • On our Privacy Policy Page
+• On our Privacy Policy Page
 
 Can change your personal information:
-  	• By logging in to your account
+• By logging in to your account
 
 ### How does our site handle Do Not Track signals?
+
 We honor Do Not Track signals and Do Not Track, plant cookies, or use advertising when a Do Not Track (DNT) browser mechanism is in place.
 
 ### Does our site allow third-party behavioral tracking?
+
 It's also important to note that we do not allow third-party behavioral tracking.
 
 ### COPPA (Children Online Privacy Protection Act)
@@ -84,12 +84,10 @@ The Fair Information Practices Principles form the backbone of privacy law in th
 
 In order to be in line with Fair Information Practices we will take the following responsive action, should a data breach occur:
 We will notify you via email
-  	
-    • Within 7 business days
+• Within 7 business days
 
 We will notify the users via in-site notification
-  	
-    • Within 7 business days
+• Within 7 business days
 
 We also agree to the Individual Redress Principle which requires that individuals have the right to legally pursue enforceable rights against data collectors and processors who fail to adhere to the law. This principle requires not only that individuals have enforceable rights against data users, but also that individuals have recourse to courts or government agencies to investigate and/or prosecute non-compliance by data processors.
 
@@ -98,19 +96,18 @@ We also agree to the Individual Redress Principle which requires that individual
 The CAN-SPAM Act is a law that sets the rules for commercial email, establishes requirements for commercial messages, gives recipients the right to have emails stopped from being sent to them, and spells out tough penalties for violations.
 
 We collect your email address in order to:
-  	• Send information, respond to inquiries, and/or other requests or questions
+• Send information, respond to inquiries, and/or other requests or questions
 
 To be in accordance with CANSPAM, we agree to the following:
-  	• Not use false or misleading subjects or email addresses.
-  	• Identify the message as an advertisement in some reasonable way.
-  	• Include the physical address of our business or site headquarters.
-  	• Monitor third-party email marketing services for compliance, if one is used.
-  	• Honor opt-out/unsubscribe requests quickly.
-  	• Allow users to unsubscribe by using the link at the bottom of each email.
+• Not use false or misleading subjects or email addresses.
+• Identify the message as an advertisement in some reasonable way.
+• Include the physical address of our business or site headquarters.
+• Monitor third-party email marketing services for compliance, if one is used.
+• Honor opt-out/unsubscribe requests quickly.
+• Allow users to unsubscribe by using the link at the bottom of each email.
 
 If at any time you would like to unsubscribe from receiving future emails, you can email us at
 kathmandulivinglabs@gmail.com and we will promptly remove you from ALL correspondence.
-
 
 ### Contacting Us
 
@@ -123,4 +120,3 @@ Nepal
 kathmandulivinglabs@gmail.com
 
 `Last Edited on 2019-08-06`
-

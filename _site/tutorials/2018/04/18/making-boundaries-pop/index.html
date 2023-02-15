@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Making cities pop! &#8211; Tech@KLL.</title>
+    <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A small tutorial that explains how you can clip map tile layers based on an external GeoJSON boundary in Leaflet.">
+    <meta name="robots" content="all">
+    <meta name="author" content="kll">
+    
+    <meta name="keywords" content="tutorials">
+    <link rel="canonical" href="http://localhost:4000/tutorials/2018/04/18/making-boundaries-pop/">
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed for Tech@KLL." href="/feed.xml" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/pixyll.css?202302151127" type="text/css">
+
+    <!-- Fonts -->
+    
+    <link href='//fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Lato:900,300' rel='stylesheet' type='text/css'>
+    
+    
+
+    <!-- MathJax -->
+    
+
+    <!-- Verifications -->
+    
+    
+
+    <!-- Open Graph -->
+    <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Making cities pop!">
+    <meta property="og:description" content="We wanted to talk about what we do here at the KLL tech room, so we hacked up a nifty little blog using Jekyll.">
+    <meta property="og:url" content="http://localhost:4000/tutorials/2018/04/18/making-boundaries-pop/">
+    <meta property="og:site_name" content="Tech@KLL.">
+    
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    
+    <meta name="twitter:title" content="Making cities pop!" />
+    <meta name="twitter:description" content="A small tutorial that explains how you can clip map tile layers based on an external GeoJSON boundary in Leaflet." />
+    <meta name="twitter:url" content="http://localhost:4000/tutorials/2018/04/18/making-boundaries-pop/" />
+    
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/favicon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+
+    
+</head>
+
+<body class="site">
+  
+	
+
+  <div class="site-wrap">
+    <header class="site-header px2 px-responsive">
+  <div class="mt2 wrap">
+    <div class="measure">
+      <a href="http://localhost:4000" class="site-title">Tech@KLL.</a>
+      <nav class="site-nav">
+        
+
+
+
+    
+    
+    
+    
+        <a href="/contributors/">Contributors</a>
+    
+
+    
+
+
+      </nav>
+      <div class="clearfix"></div>
+      
+    </div>
+  </div>
+</header>
+
+
+    <div class="post p2 p-responsive wrap" role="main">
+      <div class="measure">
+        
+
+
+<div class="post-header mb2">
+  <h1>Making cities pop!</h1>
+  <span class="post-meta">Apr 18, 2018</span><br>
+  
+  <span class="post-meta small">
+  
+    4 minute read
+  
+  </span>
+</div>
+
+<article class="post-content">
+  <p><em>A small tutorial that explains how you can clip map tile layers based on an external GeoJSON boundary in Leaflet.</em></p>
+
+<p>When designing maps for our projects here at KLL, a very common request that we receive in the early stages of development of any map-based app, is to make the geographical area that is the focus of the project stand out.</p>
+
+<p>In this post, I am going to walk you through a series of steps that will allow you to clip the standard OSM tilelayer based on a geographic boundary.</p>
+
+<h3 id="so-what-are-we-doing-again">So what are we doing again?</h3>
+
+<p>Here is an image that showcases what we are trying to achieve by the end of this tutorial.</p>
+
+<p><img src="http://localhost:4000/assets/img/scr_4.png" alt="" />
+<em>Notice how areas outside the city has a reduced opacity, allowing us to draw the user’s attention to all of the content inside the boundary.</em></p>
+
+<h3 id="before-we-begin">Before we begin</h3>
+
+<p>This tutorial assumes a basic understanding of <a href="http://leafletjs.com/">LeafletJS</a> and its API. If you are not familiar with this framework, I urge you to go through its <a href="http://leafletjs.com/examples.html">well curated collection of  tutorials</a> and <a href="http://leafletjs.com/reference-1.3.0.html">API reference documentation</a>.</p>
+
+<p>I have also uploaded all of the resources used for this tutorial in the form of a github gist. You can view the code <a href="http://bl.ocks.org/arkoblog/1a0b65bd62686bab0d8a7ccca26be998">in this github gist.</a></p>
+
+<h3 id="step-1-wiring-up-a-basic-map">Step 1: Wiring up a basic map</h3>
+
+<p>Let’s start by quickly wiring up a basic leaflet map for our use. For this, we will be following the same procedure as outlined in Leaflet’s official <a href="http://leafletjs.com/examples/quick-start/">quick start guide</a>, with the following differences:</p>
+
+<ul>
+  <li>The bounding box and the zoom level will be set to around that of Neelakantha municipality.</li>
+  <li>The tilelayer that we will be using will be different to the one provided in the guide.</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span> <span class="na">dir=</span><span class="s">"ltr"</span><span class="nt">&gt;</span>
+
+  <span class="nt">&lt;head&gt;</span>
+      <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span><span class="nt">&gt;</span>
+      <span class="c">&lt;!-- Loading leaflet JS styles and JS --&gt;</span>
+      <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"https://unpkg.com/leaflet@1.3.1/dist/leaflet.css"</span> <span class="na">integrity=</span><span class="s">"sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="</span> <span class="na">crossorigin=</span><span class="s">""</span> <span class="nt">/&gt;</span>
+      <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"</span> <span class="na">integrity=</span><span class="s">"sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw=="</span> <span class="na">crossorigin=</span><span class="s">""</span><span class="nt">&gt;&lt;/script&gt;</span>
+      <span class="c">&lt;!-- End loading Leaflet JS --&gt;</span>
+      <span class="nt">&lt;title&gt;</span>Making Cities Pop - Final Output<span class="nt">&lt;/title&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+
+  <span class="nt">&lt;body&gt;</span>
+      <span class="c">&lt;!-- Create a div where the map will reside --&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"my-map"</span> <span class="na">style=</span><span class="s">"height:400px;"</span><span class="nt">&gt;&lt;/div&gt;</span>
+      <span class="nt">&lt;script&gt;</span>
+
+          <span class="kd">var</span> <span class="nx">mymap</span> <span class="o">=</span> <span class="nx">L</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="s1">'my-map'</span><span class="p">).</span><span class="nx">setView</span><span class="p">([</span><span class="mf">27.89512</span><span class="p">,</span> <span class="mf">85.1</span><span class="p">],</span> <span class="mi">11</span><span class="p">);</span>
+      <span class="nt">&lt;/script&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+
+<span class="nt">&lt;/html&gt;</span></code></pre></figure>
+
+<p>Before we proceed, here’s a screenshot of what the output currently looks like:</p>
+
+<p><img src="http://localhost:4000/assets/img/scr_1.png" alt="" />
+As you may have noticed, not much has happened so far.</p>
+
+<h3 id="step-2-adding-the-base-tile-layer">Step 2: Adding the base tile layer</h3>
+
+<p>Inside the script tag, we now create a new tile layer and add it to the map as follows.</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html">...
+
+<span class="nt">&lt;script&gt;</span>
+  <span class="kd">var</span> <span class="nx">mymap</span> <span class="o">=</span> <span class="nx">L</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="s1">'my-map'</span><span class="p">).</span><span class="nx">setView</span><span class="p">([</span><span class="mf">27.89512</span><span class="p">,</span> <span class="mf">85.1</span><span class="p">],</span> <span class="mi">11</span><span class="p">);</span>
+
+  <span class="kd">var</span> <span class="nx">osmURL</span> <span class="o">=</span> <span class="s1">'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'</span>
+  <span class="kd">var</span> <span class="nx">baseTileLayer</span> <span class="o">=</span> <span class="nx">L</span><span class="p">.</span><span class="nx">tileLayer</span><span class="p">(</span><span class="nx">osmURL</span><span class="p">,</span> <span class="p">{</span> <span class="na">opacity</span><span class="p">:</span> <span class="mf">0.2</span> <span class="p">});</span>
+  <span class="nx">baseTileLayer</span><span class="p">.</span><span class="nx">addTo</span><span class="p">(</span><span class="nx">mymap</span><span class="p">);</span>
+<span class="nt">&lt;/script&gt;</span>
+
+...</code></pre></figure>
+
+<p>Notice how I’ve set the opacity of <code class="highlighter-rouge">baseTileLayer</code> to <code class="highlighter-rouge">0.2</code>. Here’s what the output looks like now:
+<img src="http://localhost:4000/assets/img/scr_2.png" alt="" /></p>
+
+<h3 id="step-3-loading-the-external-geojson-boundary">Step 3: Loading the external GeoJSON boundary.</h3>
+
+<p>The next step involves making the GeoJSON boundary file available for use within our <code class="highlighter-rouge">index.html</code>. For this we will have to make use of the <code class="highlighter-rouge">$.ajax()</code> method available in jQuery. To do so, we first load jQuery as an external dependency onto the head section of our document, like so:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html">...
+<span class="nt">&lt;head&gt;</span>
+  ...
+  <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://code.jquery.com/jquery-2.2.4.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+  ...
+<span class="nt">&lt;/head&gt;</span>
+...</code></pre></figure>
+
+<p>After this, we can now access the GeoJSON as follows:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html">...
+
+<span class="nt">&lt;script&gt;</span>
+  <span class="kd">var</span> <span class="nx">mymap</span> <span class="o">=</span> <span class="nx">L</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="s1">'my-map'</span><span class="p">).</span><span class="nx">setView</span><span class="p">([</span><span class="mf">27.89512</span><span class="p">,</span> <span class="mf">85.1</span><span class="p">],</span> <span class="mi">11</span><span class="p">);</span>
+  <span class="kd">var</span> <span class="nx">osmURL</span> <span class="o">=</span> <span class="s1">'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'</span>
+  <span class="kd">var</span> <span class="nx">baseTileLayer</span> <span class="o">=</span> <span class="nx">L</span><span class="p">.</span><span class="nx">tileLayer</span><span class="p">(</span><span class="nx">osmURL</span><span class="p">,</span> <span class="p">{</span> <span class="na">opacity</span><span class="p">:</span> <span class="mf">0.4</span> <span class="p">});</span>
+  <span class="nx">baseTileLayer</span><span class="p">.</span><span class="nx">addTo</span><span class="p">(</span><span class="nx">mymap</span><span class="p">);</span>
+
+
+  <span class="nx">$</span><span class="p">.</span><span class="nx">ajax</span><span class="p">({</span><span class="na">mimeType</span><span class="p">:</span> <span class="s1">'application/json'</span><span class="p">,</span> <span class="na">url</span><span class="p">:</span> <span class="s1">'boundary.geojson'</span><span class="p">}</span> <span class="p">).</span><span class="nx">done</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">data</span><span class="p">)</span>
+  <span class="p">});</span>
+<span class="nt">&lt;/script&gt;</span>
+
+...</code></pre></figure>
+
+<h3 id="step-4-making-it-pop">Step 4: Making it pop!</h3>
+
+<p>The final step involves adding one more tilelayer onto the original map. However, in this case, the tile layer will only be visible inside the boundary. This is achieved my making use of an external leaflet plugin called ‘BoundaryCanvas’, which allows us to draw tiled raster layers with an arbitrary boundary (in our case, <code class="highlighter-rouge">boundary.geojson</code>). You can learn more about its capabilities <a href="https://github.com/aparshin/leaflet-boundary-canvas">here</a>.</p>
+
+<p>We begin by loading the boundary canvas script within the head section of <code class="highlighter-rouge">index.html</code>.</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html">...
+<span class="nt">&lt;head&gt;</span>
+  ...
+      <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://unpkg.com/leaflet-boundary-canvas@1.0.0/src/BoundaryCanvas.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+  ...
+<span class="nt">&lt;/head&gt;</span>
+...</code></pre></figure>
+
+<p>Finally, we add the additional tile layer inside the <code class="highlighter-rouge">$.ajax()</code> call as follows:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html">...
+
+<span class="nt">&lt;script&gt;</span>
+
+  <span class="kd">var</span> <span class="nx">mymap</span> <span class="o">=</span> <span class="nx">L</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="s1">'my-map'</span><span class="p">).</span><span class="nx">setView</span><span class="p">([</span><span class="mf">27.89512</span><span class="p">,</span> <span class="mf">85.1</span><span class="p">],</span> <span class="mi">11</span><span class="p">);</span>
+  <span class="kd">var</span> <span class="nx">osmURL</span> <span class="o">=</span> <span class="s1">'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'</span>
+  <span class="kd">var</span> <span class="nx">baseTileLayer</span> <span class="o">=</span> <span class="nx">L</span><span class="p">.</span><span class="nx">tileLayer</span><span class="p">(</span><span class="nx">osmURL</span><span class="p">,</span> <span class="p">{</span> <span class="na">opacity</span><span class="p">:</span> <span class="mf">0.2</span> <span class="p">});</span>
+  <span class="nx">baseTileLayer</span><span class="p">.</span><span class="nx">addTo</span><span class="p">(</span><span class="nx">mymap</span><span class="p">);</span>
+
+  <span class="nx">$</span><span class="p">.</span><span class="nx">ajax</span><span class="p">({</span><span class="na">mimeType</span><span class="p">:</span> <span class="s1">'application/json'</span><span class="p">,</span> <span class="na">url</span><span class="p">:</span> <span class="s1">'boundary.geojson'</span><span class="p">}</span> <span class="p">).</span><span class="nx">done</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">test</span> <span class="o">=</span> <span class="nx">L</span><span class="p">.</span><span class="nx">TileLayer</span><span class="p">.</span><span class="nx">boundaryCanvas</span><span class="p">(</span><span class="s1">'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'</span><span class="p">,</span> <span class="p">{</span>
+        <span class="na">boundary</span><span class="p">:</span> <span class="nx">data</span><span class="p">,</span>
+    <span class="p">}).</span><span class="nx">addTo</span><span class="p">(</span><span class="nx">mymap</span><span class="p">);</span>
+  <span class="p">});</span>
+
+<span class="nt">&lt;/script&gt;</span>
+
+...</code></pre></figure>
+
+<p>If all goes well, here’s what you will see:
+<img src="http://localhost:4000/assets/img/scr_3.png" alt="" /></p>
+
+<p>To make the municipality stand out a little more, let’s modify the leaflet container’s background color. To do this, let’s add a style tag inside the <code class="highlighter-rouge">&lt;head&gt;</code> section of <code class="highlighter-rouge">index.html</code></p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html">...
+<span class="nt">&lt;head&gt;</span>
+  ...
+  <span class="nt">&lt;style&gt;</span>
+     <span class="nc">.leaflet-container</span> <span class="p">{</span>
+       <span class="nl">background</span><span class="p">:</span> <span class="m">#000</span><span class="p">;</span>
+     <span class="p">}</span>
+  <span class="nt">&lt;/style&gt;</span>
+  ...
+<span class="nt">&lt;/head&gt;</span>
+...</code></pre></figure>
+
+<p>In the end, this is what we should have:
+<img src="http://localhost:4000/assets/img/scr_4.png" alt="" /></p>
+
+<p>Cheers,
+Arogya</p>
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="center">
+  <div class="measure">
+    <small>
+      <a href="http://www.kathmandulivinglabs.org">Kathmandu Living Labs</a> is a civic-tech company based out of Nepal.
+    </small>
+  </div>
+</footer>
+
+
+</body>
+</html>
